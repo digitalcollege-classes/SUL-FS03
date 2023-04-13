@@ -5,20 +5,52 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
 
 # Ferramentas
 
+### LMS
+
+[Canvas](https://canvas.instructure.com)
+
+[Inscrição no Curso](https://canvas.instructure.com/enroll/9RXPKA)
+
+[App para iOS](https://apps.apple.com/br/app/canvas-student/id480883488)
+
+[App para Android](https://play.google.com/store/apps/details?id=com.instructure.candroid&hl=pt_BR&gl=US)
+
+> Nos apps é preciso procurar por "Free Canvas Accounts" para fazer login ou acessar através do QR Code
+
+### Anotações e aprendizado
+
+[https://github.com](https://github.com)
+
+[https://notion.so](https://notion.so)
+
+[Replit](https://replit.com)
+
 ## Comunicação
 
 ### Discord
 
+Ferramenta oficial de comunicação da escola
+
+[Convite para o servidor do Discord](https://discord.gg/VFv5tsA7)
+
 ### Whatsapp
 
-### Notion
+Ferramenta não oficial para comunicação rápida
 
-### Github
-
-### Canva
+[Link de acesso ao grupo do Whatsapp]()
 
 # Organização de Estudo
 
-# Roadmap
+## Roadmap
 
-# PDI: plano de desenvolvimento individual
+### roadmap.sh
+
+[Link para o roadmap Frontend](https://roadmap.sh/frontend)
+
+[Link para o roadmap Backend](https://roadmap.sh/backend)
+
+[Link para o roadmap de JavaScript](https://roadmap.sh/javascript)
+
+## PDI: plano de desenvolvimento individual
+
+[Link para o template de PDI](https://bibibot.notion.site/TEMPLATE-PDI-plano-de-desenvolvimento-individual-4aa4d0c5f4404d7c82ee547331cd757f)
