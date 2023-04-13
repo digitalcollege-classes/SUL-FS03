@@ -25,7 +25,7 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
 
 [Replit](https://replit.com)
 
-## Comunicação
+# Comunicação
 
 ### Discord
 
