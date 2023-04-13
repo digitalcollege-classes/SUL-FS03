@@ -19,9 +19,9 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
 
 ### Anotações e aprendizado
 
-[https://github.com](https://github.com)
+[Github](https://github.com)
 
-[https://notion.so](https://notion.so)
+[Notion](https://notion.so)
 
 [Replit](https://replit.com)
 
@@ -37,7 +37,7 @@ Ferramenta oficial de comunicação da escola
 
 Ferramenta não oficial para comunicação rápida
 
-[Link de acesso ao grupo do Whatsapp]()
+[Link de acesso ao grupo do Whatsapp](https://chat.whatsapp.com/CpuvU9LKACcDZnR5vV8eay)
 
 # Organização de Estudo
 
