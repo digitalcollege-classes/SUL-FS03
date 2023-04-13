@@ -51,6 +51,8 @@ Ferramenta não oficial para comunicação rápida
 
 [Link para o roadmap de JavaScript](https://roadmap.sh/javascript)
 
-## PDI: plano de desenvolvimento individual
+## Templates para o Notion
 
 [Link para o template de PDI](https://bibibot.notion.site/TEMPLATE-PDI-plano-de-desenvolvimento-individual-4aa4d0c5f4404d7c82ee547331cd757f)
+
+[Templates diversons](https://diolinux.com.br/aplicativos/modelos-do-notion.html)
