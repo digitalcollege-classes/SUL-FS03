@@ -7,13 +7,16 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
 
 ### LMS
 
-[Canvas](https://canvas.instructure.com)
+Afim de dar um suporte e uma experiência melhor para os alunos vamos adotar o LMS chamado Canvas. O Canvas será usado no lugar do [portal do aluno da escola](https://digitalcollege.com.br/portal-do-aluno/) e caso surjam avisos ou informações que devam ser repassadas para os alunos a mesma também estará disponível no LMS. 
 
-[Inscrição no Curso](https://canvas.instructure.com/enroll/9RXPKA)
+#### Links importantes para o Canvas:
 
-[App para iOS](https://apps.apple.com/br/app/canvas-student/id480883488)
+- Inscrição no curso caso ainda não tenha se inscrito ainda: [acessar](https://canvas.instructure.com/enroll/9RXPKA)
+- Tela de login do nosso Canvas: [acessar](https://canvas.instructure.com)
 
-[App para Android](https://play.google.com/store/apps/details?id=com.instructure.candroid&hl=pt_BR&gl=US)
+#### Apps
+- App para iOS: [link na loja](https://apps.apple.com/br/app/canvas-student/id480883488)
+- App para Android: [link na loja](https://play.google.com/store/apps/details?id=com.instructure.candroid&hl=pt_BR&gl=US)
 
 > Nos apps é preciso procurar por "Free Canvas Accounts" para fazer login ou acessar através do QR Code
 
