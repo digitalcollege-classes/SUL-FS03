@@ -22,11 +22,25 @@ Afim de dar um suporte e uma experiência melhor para os alunos vamos adotar o L
 
 ### Anotações e aprendizado
 
-[Github](https://github.com)
+#### Github
 
-[Notion](https://notion.so)
+GitHub é um serviço baseado em nuvem que hospeda um sistema de controle de versão (VCS) chamado Git. Ele permite que os desenvolvedores colaborem e façam mudanças em projetos compartilhados enquanto mantêm um registro detalhado do seu progresso.
 
-[Replit](https://replit.com)
+[Link para o Github](https://github.com)
+
+#### Notion
+
+O Notion é um app do estilo workspace, mas tão customizável que podemos colocá-lo na linha de “all-in-one” ‒ ferramentas que concentram todas as funcionalidades das concorrentes dentro de um único sistema.
+
+Este espaço de trabalho permite que o usuário escreva em um belo espaço limpo, crie seu próprio wiki pessoal ‒ com páginas em camadas infinitas de conteúdo ‒, planeje usando um visual kanban, um calendário ou uma lista simples e, por último, mas não menos importante, capturar seus fluxos de trabalho e registrar tudo criando planilhas e bancos de dados. 
+
+[Link para Notion](https://notion.so)
+
+#### Replit
+
+O Replit é um editor de código-fonte, disponível para acesso online via PC ou mesmo em lojas de aplicativos para download em dispositivos móveis, como smartphones. O Replit funciona como se fosse um Word, mas invés de você escrever um trabalho da escola, deve inserir linhas de código que serão transformadas em programas.
+
+[Link para o Replit](https://replit.com)
 
 # Comunicação
 
