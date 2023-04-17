@@ -48,7 +48,7 @@ O Replit é um editor de código-fonte, disponível para acesso online via PC ou
 
 Ferramenta oficial de comunicação da escola
 
-[Convite para o servidor do Discord](https://discord.gg/VFv5tsA7)
+[Convite para o servidor do Discord](https://discord.gg/rZVQNtJ6ZE)
 
 ### Whatsapp
 
