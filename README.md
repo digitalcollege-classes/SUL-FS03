@@ -76,4 +76,12 @@ Ferramenta não oficial para comunicação rápida
 
 # Referências técnicas
 
-[Repositório workspace](https://wilcorrea-super-duper-potato-4x569xwq6cjw77.github.dev?autoStart=false)
+## Projeto do Curso
+
+### Design
+
+[Link do Figma](https://www.figma.com/file/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE?node-id=101-2)
+
+### Implementação 
+
+[Codespace do Repositório](https://wilcorrea-super-duper-potato-4x569xwq6cjw77.github.dev?autoStart=false)
