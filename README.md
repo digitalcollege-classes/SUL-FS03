@@ -48,7 +48,7 @@ O Replit é um editor de código-fonte, disponível para acesso online via PC ou
 
 Ferramenta oficial de comunicação da escola
 
-[Convite para o servidor do Discord](https://discord.gg/VFv5tsA7)
+[Convite para o servidor do Discord](https://discord.gg/rZVQNtJ6ZE)
 
 ### Whatsapp
 
@@ -73,3 +73,7 @@ Ferramenta não oficial para comunicação rápida
 [Link para o template de PDI](https://bibibot.notion.site/TEMPLATE-PDI-plano-de-desenvolvimento-individual-4aa4d0c5f4404d7c82ee547331cd757f)
 
 [Templates diversons](https://diolinux.com.br/aplicativos/modelos-do-notion.html)
+
+# Referências técnicas
+
+[Repositório workspace](https://wilcorrea-super-duper-potato-4x569xwq6cjw77.github.dev?autoStart=false)
