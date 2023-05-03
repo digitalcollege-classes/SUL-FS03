@@ -16,4 +16,6 @@ Slides: [Tecnologias do Frontend](https://slides.com/wilcorrea/fundamentos-do-d
 
 GitHub da Aula: [Link para o material](https://github.com/digitalcollege-classes/SUL-FS03/blob/main/m1-fundamentos-do-desenvolvimento-web/u1-introducao-ao-desenvolvimento-web/a07-tecnologias-do-frontend/README.md)
 
-[Motherfucking Web Site](https://motherfuckingwebsite.com/)
+Motherfucking Web Site: [link para o site](https://motherfuckingwebsite.com/)
+
+Better Motherfucking Web Site: [link para o site](http://bettermotherfuckingwebsite.com)
