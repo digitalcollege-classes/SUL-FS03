@@ -1,15 +1,29 @@
 # A08 :: Prática de HTML e CSS
 
-### Conteúdo:
+### Conteúdo
 
 Pequena prática com HTML e CSS
 
-### Objetivo:
+### Objetivo
 
 Mostrar como funcionam as tags do HTML, sem entrar em detalhes, o objetivo é fazer o aluno construir um código e executá-lo com o navegador web
 
-### Materiais:
+### Materiais
 
 Slides: [Tecnologias do Frontend](https://slides.com/wilcorrea/fundamentos-do-desenvolvimento-web#/30) | [Live View](https://slides.com/d/kU87ubk/live#/30)
 
 GitHub da Aula: [Link para o material](https://github.com/digitalcollege-classes/SUL-FS03/blob/main/m1-fundamentos-do-desenvolvimento-web/u1-introducao-ao-desenvolvimento-web/a08-pratica-html-css/README.md)
+
+### Roteiro
+
+Sugestão de roteiro:
+- [Kahoot de review](https://create.kahoot.it/share/anteriormente-em-full-stack/a926f13d-953b-4369-b32a-daf32936190b)
+- Acessar o fork feito na aula anterior
+- Sincronizar o fork
+- Adicionar um novo arquivo para a aula de hoje
+- Clonar o seu projeto localmente
+- Abrir no seu editor
+- Em grupo criar uma página descrevendo com o que espera aprender no curso
+- Ver a página rodando no seu navegador local
+- Inspecionar a mesma e identificar as tags que foram geradas
+- Copiar as mudanças feitas e colocar no github manualmente
