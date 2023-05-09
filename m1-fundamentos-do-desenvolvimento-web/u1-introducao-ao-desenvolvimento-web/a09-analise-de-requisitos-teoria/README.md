@@ -25,6 +25,6 @@ Sugestão de roteiro:
 - Explicar que é preciso coletar o máximo de informações a respeito de como o software deverá funcionar e qual problema ele propõe resolver
 - Dinâmica para buscar as necessidades de um sodtware
 - Salvar num arquivo na pasta da aula 9 no projeto local
-- Fazer um commit com a lista
+- Fazer um commit com o arquivo salvo que contém a lista de requisitos
 - Fazer um push para o seu fork
 <br>
