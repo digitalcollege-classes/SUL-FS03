@@ -46,13 +46,13 @@ O Replit é um editor de código-fonte, disponível para acesso online via PC ou
 
 ### Discord
 
-Ferramenta oficial de comunicação da escola
+O Discord é a plataforma oficial de comunicação da escola para professores e alunos. Com recursos de voz e texto, o Discord permite uma comunicação eficiente e colaborativa em tempo real.
 
 [Convite para o servidor do Discord](https://discord.gg/rZVQNtJ6ZE)
 
 ### Whatsapp
 
-Ferramenta não oficial para comunicação rápida
+Além do Discord, também nos comunicamos por meio do WhatsApp, uma ferramenta não oficial, mas bastante utilizada para conversas informais, dúvidas pontuais e comunicação rápida.
 
 [Link de acesso ao grupo do Whatsapp](https://chat.whatsapp.com/CpuvU9LKACcDZnR5vV8eay)
 
