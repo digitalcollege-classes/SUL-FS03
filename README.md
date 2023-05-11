@@ -85,3 +85,10 @@ Ferramenta não oficial para comunicação rápida
 ### Implementação 
 
 [Codespace do Repositório](https://wilcorrea-super-duper-potato-4x569xwq6cjw77.github.dev?autoStart=false)
+
+
+### Desafios
+
+Assim como os trabalhos de Hércules temos 12 desafios a serem conquistados durante o curso.
+
+![image](https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/2cccff0d-77e6-4e99-b25e-e10c7752da3a)
