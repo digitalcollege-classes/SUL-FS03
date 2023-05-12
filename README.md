@@ -46,13 +46,13 @@ O Replit é um editor de código-fonte, disponível para acesso online via PC ou
 
 ### Discord
 
-Ferramenta oficial de comunicação da escola
+O Discord é a plataforma oficial de comunicação da escola para professores e alunos. Com recursos de voz e texto, o Discord permite uma comunicação eficiente e colaborativa em tempo real.
 
 [Convite para o servidor do Discord](https://discord.gg/rZVQNtJ6ZE)
 
 ### Whatsapp
 
-Ferramenta não oficial para comunicação rápida
+Além do Discord, também nos comunicamos por meio do WhatsApp, uma ferramenta não oficial, mas bastante utilizada para conversas informais, dúvidas pontuais e comunicação rápida.
 
 [Link de acesso ao grupo do Whatsapp](https://chat.whatsapp.com/CpuvU9LKACcDZnR5vV8eay)
 
@@ -82,6 +82,15 @@ Ferramenta não oficial para comunicação rápida
 
 [Link do Figma](https://www.figma.com/file/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE?node-id=101-2)
 
+[Versão em PDF](https://drive.google.com/file/d/141KU1EHCwF63heVOJIKNCXPQKJBCOVmw/view?usp=sharing)
+
 ### Implementação 
 
 [Codespace do Repositório](https://wilcorrea-super-duper-potato-4x569xwq6cjw77.github.dev?autoStart=false)
+
+
+### Desafios
+
+Assim como os trabalhos de Hércules temos 12 desafios a serem conquistados durante o curso.
+
+![image](https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/2cccff0d-77e6-4e99-b25e-e10c7752da3a)
