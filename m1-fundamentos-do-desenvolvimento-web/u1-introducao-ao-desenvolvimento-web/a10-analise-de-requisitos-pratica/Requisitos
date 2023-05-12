@@ -1,0 +1,42 @@
+- Principal: loja online de calçados com funções padrões de "marketplaces"
+    - Template: rosa + branco, principalmente
+    - Logo já existente
+
+- Barra de Navegação
+    - Navegação básica (Início / Ofertas / Meus Pedidos etc).
+    - Barra de Pesquisa
+    - Acesso ao carrinho de compras
+
+
+- Slides de Destaques
+    - Separar em nichos de clientes
+    - Capturar o máximo de pessoas possível
+
+- Recomendações de acordo com a experiência do usuário
+
+- "Footer" com informações sobre a loja e ícones para redes sociais
+    - Facebook
+    - Instagram
+    - Twitter
+    - Telefone + Endereço Físico (se aplicável)
+
+- Menu interativo com seleção por categoria
+    - Blusas/camisetas
+    - Calças
+    - Calçados
+        - Ramificações de calçados, que são a especialidade
+
+- Destaque "premium"
+    - Grande caixa com uma foto e breve texto descrevendo um produto específico de categoria "premium".
+
+- Sistema de Login
+    - Cadastro
+    - Banco de Dados
+    - Segurança para informações relacionadas a pagamento
+
+- Sistema de Carrinho
+    - Armazenar itens selecionados pelo usuário
+    - Processar informações de pagamento
+    - Recomendar de acordo com os interesses do cliente
+
+ 
