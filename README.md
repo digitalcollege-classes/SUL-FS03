@@ -82,6 +82,8 @@ Além do Discord, também nos comunicamos por meio do WhatsApp, uma ferramenta n
 
 [Link do Figma](https://www.figma.com/file/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE?node-id=101-2)
 
+[Versão em PDF](https://drive.google.com/file/d/141KU1EHCwF63heVOJIKNCXPQKJBCOVmw/view?usp=sharing)
+
 ### Implementação 
 
 [Codespace do Repositório](https://wilcorrea-super-duper-potato-4x569xwq6cjw77.github.dev?autoStart=false)
