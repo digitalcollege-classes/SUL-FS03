@@ -1,14 +1,16 @@
 # A11 :: Metodologias de Fluxo de Trabalho
 
-**Conteúdo
+### Conteúdo
 
 Compreender as principais formas de organização de trabalho que o mercado costuma adotar.
 
-**Objetivo
+
+### Objetivo
 
 Discutir sobre metodologias ágeis, modelos cascatas e frameworks como kanban e scrum como formas de gerir as entregas.
 
-**Materiais
+
+### Materiais
 
 Slides: [Metodologias de Fluxo de Trabalho](https://slides.com/wilcorrea/fundamentos-do-desenvolvimento-web#/34) | [Live View](https://slides.com/d/kU87ubk/live#/34)
 
