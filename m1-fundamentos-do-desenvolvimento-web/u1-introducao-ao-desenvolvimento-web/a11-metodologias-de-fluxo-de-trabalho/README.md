@@ -1,4 +1,4 @@
-# A11 :: Metodologias de Fluxo de Trabalho
+# A11 : Metodologias de Fluxo de Trabalho
 
 ### Conteúdo
 
