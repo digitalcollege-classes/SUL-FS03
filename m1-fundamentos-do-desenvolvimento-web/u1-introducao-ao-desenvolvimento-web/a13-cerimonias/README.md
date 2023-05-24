@@ -29,21 +29,23 @@ EasyRetro: [link para o board](https://easyretro.io/publicboard/hKffogyjzzPPMsdB
 
 - Kahhot de revisão;
 - Fazer o fechamento do board anterior no trello;
-- Orientar as pessoas a cada pessoa criar uma tarefa no backlog;
+- Orientar as pessoas a cada pessoa criar uma tarefa no Backlog;
 - Em grupos ver quem vai pegar qual tarefa (Planning) e colocar os cards na coluna da sprint;
-- Colocar os cards na lista de TODO;
+- Colocar os cards na lista de Sprint Backlog;
 - Usar o PlanITpoker para pontuar algumas tarefas;
+- Atribuir um Card para si e colocar na lista de TODO;
 - Trabalhar no desenvolvimento da tarefa;
+  - Mover seu card para a DOING;
   - Fazer o sync do seu fork;
   - Ter um clone local;
   - Abrir no VS Code;
-  - Atribuir um Card para si e mover para a DOING;
-  - Criar o arquivo numa pasta com seu nome dentro da pasta `m1-fundamentos-do-desenvolvimento-web/u1-introducao-ao-desenvolvimento-web/a13-cerimonias`;
+  - Criar um arquivo numa pasta com seu nome dentro da pasta `m1-fundamentos-do-desenvolvimento-web/u1-introducao-ao-desenvolvimento-web/a13-cerimonias`;
   - Checar as credenciais no Windows;
   - Checar as configurações do Git para o email do autor do commit (git config --global user.email);
   - Checar as configurações do Git para o nome do autor do commit (git config --global user.name);
   - Fazer o commit;
   - Fazer o push;
   - Fazer o PR da mudança para o repositório principal;
-- Esperar o PR ser mesclado para marcar sua tarefa como done no board do trello;
+- Esperar o PR ser mesclado para marcar sua tarefa como DONE no board do trello;
+- Faz a retrospectiva;
 - Arquivar sua tarefa no board.
