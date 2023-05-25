@@ -1,0 +1,20 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.destaques {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh;
+    width: 99vw; */
+    padding: 10px;
+    gap: 10px;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 100px;
+    border-radius: 20px;
+}
