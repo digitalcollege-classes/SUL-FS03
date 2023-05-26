@@ -94,3 +94,4 @@ Além do Discord, também nos comunicamos por meio do WhatsApp, uma ferramenta n
 Assim como os trabalhos de Hércules temos 12 desafios a serem conquistados durante o curso.
 
 ![image](https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/2cccff0d-77e6-4e99-b25e-e10c7752da3a)
+
