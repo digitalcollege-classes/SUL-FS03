@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background: linear-gradient(90deg, rgb(219, 97, 27)0%, rgb(191, 0, 255)100%); 
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem;
+    flex-direction: column;
+   
+}
+.container h1 {
+    position: relative;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    padding: 3rem
+ 
+   
+}
+.container img {
+    margin-right: 20px;
+    border-radius: 1rem;
+    padding: 3rem;
+    box-shadow: -1px 0px 60px 18px rgba(255,0,0,1);
+}

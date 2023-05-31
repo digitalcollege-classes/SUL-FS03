@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Curso FullStack</title>
+
+<style>
+	body {font-family: Arial, sans-serif;}
+</style>
+
+</head>
+<body>
+
+<fieldset>
+
+<legend><strong>Curso FullStack</strong></legend>
+
+<P>
+	<strong>Qual parte do curso achou mais interessante até aqui?</strong>
+</P>
+<P>
+	<li>A interação pelo Kahoot</li><br>
+	<li>A turma azilada</li><br>
+	<li>Conhecendo o Github</li><br>
+	<li>Início de um html</li><br>
+	<li>A máquina de café</li><br>
+</P>
+<br>
+</fieldset>
+</body>
+</html>
