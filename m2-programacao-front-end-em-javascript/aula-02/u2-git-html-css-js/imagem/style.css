@@ -12,6 +12,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10rem;
+    padding: 8rem;
+    flex-direction: column;
+   
 }
-
+.container h1 {
+    position: relative;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    padding: 3rem
+    box-shadow: -1px 0px 60px 18px rgba(255,0,0,1);
+   
+}
+.container img {
+    margin-right: 20px;
+    border-radius: 1rem;
+    padding: 3rem;
+    box-shadow: -1px 0px 60px 18px rgba(255,0,0,1);
+}
