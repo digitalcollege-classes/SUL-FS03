@@ -4,8 +4,7 @@ Use o comando abaixo para gerar uma chave SSH
 ```bash
 ssh-keygen -t ed25519 -C "<your_email@example.com>"
 ```
-
-Copie a chave gerada para um diretório mais reservado como o `Documents`.
+Cadastre esta chave que foi gerada no GitHub.
 
 Acesse o terminal e vá até a past do seu projeto. De lá rode os comandos a seguir
 
