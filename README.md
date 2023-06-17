@@ -3,7 +3,7 @@
 A sala de aula deve ser um ambiente totalmente seguro e o respeito deve ser prioridade entre todos. Dentro da sala de aula serão tratados apenas recorrentes ao curso e ao aprendizado.
 Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de aula e nos ambientes de comunicação que usaremos não pode haver nenhum tipo de comentário pejorativo sobre o progresso ou sobre a base de conhecimento das pessoas.
 
-# Conteúdo programático
+## Conteúdo programático
 
 <table cellspacing="0" cellpadding="0" style="table-layout: fixed; font-size: 10pt; font-family: Arial,sans-serif; border-collapse: collapse; border: none;">
   <thead>
@@ -37,14 +37,14 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
       <td>Saber utilizar, com familiaridade, os comandos específicos do Git, a navegação e a manipulação de arquivos com a linha de comando. E com isso, versionar um projeto trabalhando em equipe.</td>
       <td>12</td>
       <td>6</td>
-      <td align="center">&nbsp;</td>
+      <td align="center">-</td>
     </tr>
     <tr>
       <td>4 - Bibliotecas para HTML &amp; CSS</td>
       <td>Aprimorar a construção de sites e torná-los responsivos, reutilizando ferramentas já existentes e validadas no mercado.</td>
       <td>8</td>
       <td>4</td>
-      <td align="center">&nbsp;</td>
+      <td align="center">-</td>
     </tr>
     <tr>
       <td rowspan="3" colspan="1">Módulo 2 - Programação Front-End em Javascript</td>
@@ -52,21 +52,21 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
       <td>Aprender os conceitos básicos da programação como estrutura de dados e de controle, aplicando isso nos sites que foram construídos.</td>
       <td>16</td>
       <td>8</td>
-      <td align="center">&nbsp;</td>
+      <td align="center">-</td>
     </tr>
     <tr>
       <td>2 - Javascript</td>
       <td>Validar formulários e criar a interatividade do usuário com os componentes da página Web. Consumir serviços Web e/ou API REST, para desenvolver aplicações Web flúidas e com usabilidade.</td>
       <td>32</td>
       <td>16</td>
-      <td align="center">&nbsp;</td>
+      <td align="center">-</td>
     </tr>
     <tr>
       <td>3 - ReactJS</td>
       <td>Reutilizar a estrutura do React para criar aplicações Web interativas de forma mais ágil, baseada na organização e gerenciamento do comportamento dos componentes.</td>
       <td>24</td>
       <td>12</td>
-      <td align="center">&nbsp;</td>
+      <td align="center">-</td>
     </tr>
     <tr>
       <td rowspan="3" colspan="1">Módulo 3 - Desenvolvendo Back-End</td>
@@ -74,21 +74,21 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
       <td>Aplicar todo o conhecimento em Javascript para trabalhar no backend, ou seja, aplicações que são executadas do lado do servidor.</td>
       <td>12</td>
       <td>6</td>
-      <td align="center">&nbsp;</td>
+      <td align="center">-</td>
     </tr>
     <tr>
       <td>2 - Express.js</td>
       <td>Aprender uma biblioteca de mercado que ajuda a ganhar produtividade na hora de criar e manter uma API Restful.</td>
       <td>24</td>
       <td>12</td>
-      <td align="center">&nbsp;</td>
+      <td align="center">-</td>
     </tr>
     <tr>
       <td>3 - Banco de Dados</td>
       <td>Aprender a integrar nossas APIs com uma base de dados real, aprenda a manipular a estrutura e os registros de um banco de dados através do Javascript.</td>
       <td>20</td>
       <td>10</td>
-      <td align="center">&nbsp;</td>
+      <td align="center">-</td>
     </tr>
     <tr>
       <td rowspan="2" colspan="1">Módulo 4 - Testes Automatizados</td>
@@ -96,14 +96,14 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
       <td>Compreender a criação de testes para as aplicações web, aprendendo a criar códigos que testam os códigos utilizando uma ferramente de teste automatizado end-to-end.</td>
       <td>8</td>
       <td>4</td>
-      <td align="center">&nbsp;</td>
+      <td align="center">-</td>
     </tr>
     <tr>
       <td>2 - Testes automatizados para APIs</td>
       <td>Aprender a criar testes automatizados para o backend, garantindo o funcionamento dos endpoints criados com o Express.</td>
       <td>8</td>
       <td>4</td>
-      <td align="center">&nbsp;</td>
+      <td align="center">-</td>
     </tr>
     <tr>
       <td></td>
