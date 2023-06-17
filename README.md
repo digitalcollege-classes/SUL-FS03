@@ -18,7 +18,7 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
   </thead>
   <tbody>
     <tr>
-      <td rowspan="4" colspan="1">Módulo 1 - Fundamentos do Desenvolvimento Web</td>
+      <td rowspan="4" colspan="1" style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);">Módulo 1 - Fundamentos do Desenvolvimento Web</td>
       <td>1 - Introdução ao Desenvolvimento Web</td>
       <td>Entender os papéis dos profissionais dentro de uma equipe de desenvolvimento, desde a concepção da ideia até a entrega do produto nas mãos do cliente. Compreender o uso das tecnologias de front-end e back-end e transação dos dados através dos protocolos de transporte da Web.</td>
       <td>12</td>
@@ -47,7 +47,7 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
       <td align="center">-</td>
     </tr>
     <tr>
-      <td rowspan="3" colspan="1">Módulo 2 - Programação Front-End em Javascript</td>
+      <td rowspan="3" colspan="1" style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);">Módulo 2 - Programação Front-End em Javascript</td>
       <td>1 - Lógica de Programação em Javascript</td>
       <td>Aprender os conceitos básicos da programação como estrutura de dados e de controle, aplicando isso nos sites que foram construídos.</td>
       <td>16</td>
@@ -69,7 +69,7 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
       <td align="center">-</td>
     </tr>
     <tr>
-      <td rowspan="3" colspan="1">Módulo 3 - Desenvolvendo Back-End</td>
+      <td rowspan="3" colspan="1" style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);">Módulo 3 - Desenvolvendo Back-End</td>
       <td>1 - Node.js</td>
       <td>Aplicar todo o conhecimento em Javascript para trabalhar no backend, ou seja, aplicações que são executadas do lado do servidor.</td>
       <td>12</td>
@@ -91,7 +91,7 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
       <td align="center">-</td>
     </tr>
     <tr>
-      <td rowspan="2" colspan="1">Módulo 4 - Testes Automatizados</td>
+      <td rowspan="2" colspan="1" style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);">Módulo 4 - Testes Automatizados</td>
       <td>1 - Testes automatizados com Cypress</td>
       <td>Compreender a criação de testes para as aplicações web, aprendendo a criar códigos que testam os códigos utilizando uma ferramente de teste automatizado end-to-end.</td>
       <td>8</td>
@@ -106,11 +106,9 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
       <td align="center">-</td>
     </tr>
     <tr>
-      <td></td>
-      <td>Totais</td>
-      <td></td>
-      <td>192</td>
-      <td colspan="2">96</td>
+      <td colspan="3" style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);">Totais</td>
+      <td style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);">192</td>
+      <td colspan="2" style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);">96</td>
     </tr>
   </tbody>
 </table>
