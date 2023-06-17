@@ -51,7 +51,7 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
     <tr>
       <td>2 - Javascript</td>
       <td>Validar formulários e criar a interatividade do usuário com os componentes da página Web. Consumir serviços Web e/ou API REST, para desenvolver aplicações Web flúidas e com usabilidade.</td>
-      <td>16</td>
+      <td>12</td>
       <td align="center">-</td>
     </tr>
     <tr>
@@ -70,7 +70,6 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
     <tr>
       <td>2 - Express.js</td>
       <td>Aprender uma biblioteca de mercado que ajuda a ganhar produtividade na hora de criar e manter uma API Restful.</td>
-      <td>24</td>
       <td>12</td>
       <td align="center">-</td>
     </tr>
