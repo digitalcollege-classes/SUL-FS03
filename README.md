@@ -10,94 +10,107 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
     <tr>
       <th style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);">Módulos</th>
       <th style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);">Unidades</th>
-      <th style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);">Descritivo</th>
-      <th style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);"><div style="max-height: 42px;">Nº H/A</div></th>
-      <th style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);"><div style="max-height: 42px;">Nº Dias</div></th>
+      <th style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);">Aptidão a desenvolver</th>
+      <th style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);">Nº H/A</th>
+      <th style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);">Nº Dias</th>
+      <th style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);">Andamento</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="4" colspan="1"><div>Módulo 1 - Fundamentos do Desenvolvimento Web</div></td>
+      <td rowspan="4" colspan="1">Módulo 1 - Fundamentos do Desenvolvimento Web</td>
       <td>1 - Introdução ao Desenvolvimento Web</td>
       <td>Entender os papéis dos profissionais dentro de uma equipe de desenvolvimento, desde a concepção da ideia até a entrega do produto nas mãos do cliente. Compreender o uso das tecnologias de front-end e back-end e transação dos dados através dos protocolos de transporte da Web.</td>
       <td>12</td>
       <td>6</td>
+      <td align="center">Concluído</td>
     </tr>
     <tr>
       <td>2 - HTML &amp; CSS</td>
       <td>Saber construir uma página Web do zero, utilizando a linguagem de marcação HTML e a linguagem de estilo CSS. Ao final dessa unidade, o aluno será capaz de criar, identificar e dar manutenção em sites estáticos.</td>
       <td>16</td>
       <td>8</td>
+      <td align="center">Em andamento</td>
     </tr>
     <tr>
       <td>3 - Git e GitHub</td>
       <td>Saber utilizar, com familiaridade, os comandos específicos do Git, a navegação e a manipulação de arquivos com a linha de comando. E com isso, versionar um projeto trabalhando em equipe.</td>
       <td>12</td>
       <td>6</td>
+      <td align="center">&nbsp;</td>
     </tr>
     <tr>
       <td>4 - Bibliotecas para HTML &amp; CSS</td>
       <td>Aprimorar a construção de sites e torná-los responsivos, reutilizando ferramentas já existentes e validadas no mercado.</td>
       <td>8</td>
       <td>4</td>
+      <td align="center">&nbsp;</td>
     </tr>
     <tr>
-      <td rowspan="3" colspan="1"><div>Módulo 2 - Programação Front-End em Javascript</div></td>
+      <td rowspan="3" colspan="1">Módulo 2 - Programação Front-End em Javascript</td>
       <td>1 - Lógica de Programação em Javascript</td>
       <td>Aprender os conceitos básicos da programação como estrutura de dados e de controle, aplicando isso nos sites que foram construídos.</td>
       <td>16</td>
       <td>8</td>
+      <td align="center">&nbsp;</td>
     </tr>
     <tr>
       <td>2 - Javascript</td>
       <td>Validar formulários e criar a interatividade do usuário com os componentes da página Web. Consumir serviços Web e/ou API REST, para desenvolver aplicações Web flúidas e com usabilidade.</td>
       <td>32</td>
       <td>16</td>
+      <td align="center">&nbsp;</td>
     </tr>
     <tr>
       <td>3 - ReactJS</td>
       <td>Reutilizar a estrutura do React para criar aplicações Web interativas de forma mais ágil, baseada na organização e gerenciamento do comportamento dos componentes.</td>
       <td>24</td>
       <td>12</td>
+      <td align="center">&nbsp;</td>
     </tr>
     <tr>
-      <td rowspan="3" colspan="1"><div>Módulo 3 - Desenvolvendo Back-End</div></td>
+      <td rowspan="3" colspan="1">Módulo 3 - Desenvolvendo Back-End</td>
       <td>1 - Node.js</td>
-      <td>Reutilizará todo o conhecimento em Javascript para trabalhar no backend, ou seja, aplicações que são executadas do lado do servidor.</td>
+      <td>Aplicar todo o conhecimento em Javascript para trabalhar no backend, ou seja, aplicações que são executadas do lado do servidor.</td>
       <td>12</td>
       <td>6</td>
+      <td align="center">&nbsp;</td>
     </tr>
     <tr>
       <td>2 - Express.js</td>
-      <td>Aprenderá uma biblioteca que gera mais produtividade na hora de criar e manter uma API Restful.</td>
+      <td>Aprender uma biblioteca de mercado que ajuda a ganhar produtividade na hora de criar e manter uma API Restful.</td>
       <td>24</td>
       <td>12</td>
+      <td align="center">&nbsp;</td>
     </tr>
     <tr>
       <td>3 - Banco de Dados</td>
-      <td>Hora de integrar nossas APIs com uma base de dados real, aprenda a manipular a estrutura e os registros de um banco de dados através do Javascript.</td>
+      <td>Aprender a integrar nossas APIs com uma base de dados real, aprenda a manipular a estrutura e os registros de um banco de dados através do Javascript.</td>
       <td>20</td>
       <td>10</td>
+      <td align="center">&nbsp;</td>
     </tr>
     <tr>
-      <td rowspan="2" colspan="1"><div>Módulo 4 - Testes Automatizados</div></td>
+      <td rowspan="2" colspan="1">Módulo 4 - Testes Automatizados</td>
       <td>1 - Testes automatizados com Cypress</td>
-      <td>Chega de testar manualmente as aplicações web, aprenda a criar códigos que testam os códigos, utilizando uma ferramente de teste automatizado end-to-end.</td>
+      <td>Compreender a criação de testes para as aplicações web, aprendendo a criar códigos que testam os códigos utilizando uma ferramente de teste automatizado end-to-end.</td>
       <td>8</td>
       <td>4</td>
+      <td align="center">&nbsp;</td>
     </tr>
     <tr>
       <td>2 - Testes automatizados para APIs</td>
       <td>Aprender a criar testes automatizados para o backend, garantindo o funcionamento dos endpoints criados com o Express.</td>
       <td>8</td>
       <td>4</td>
+      <td align="center">&nbsp;</td>
     </tr>
     <tr>
       <td></td>
       <td>Totais</td>
       <td></td>
       <td>192</td>
-      <td>96</td>
+      <td colspan="2">96</td>
     </tr>
   </tbody>
 </table>
