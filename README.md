@@ -18,7 +18,7 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
   </thead>
   <tbody>
     <tr>
-      <td rowspan="4" colspan="1" style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);">Módulo 1 - Fundamentos do Desenvolvimento Web</td>
+      <td rowspan="4" colspan="1"><div style="background-color: rgb(127, 127, 127); color: rgb(255, 255, 255);">Módulo 1 - Fundamentos do Desenvolvimento Web</div></td>
       <td>1 - Introdução ao Desenvolvimento Web</td>
       <td>Entender os papéis dos profissionais dentro de uma equipe de desenvolvimento, desde a concepção da ideia até a entrega do produto nas mãos do cliente. Compreender o uso das tecnologias de front-end e back-end e transação dos dados através dos protocolos de transporte da Web.</td>
       <td>12</td>
