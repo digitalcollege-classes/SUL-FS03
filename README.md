@@ -12,7 +12,7 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
       <th>Unidades</th>
       <th>Aptidão a desenvolver</th>
       <th>Encontros de 2h</th>
-      <th>Andamento</th>
+      <th>Situação</th>
     </tr>
   </thead>
   <tbody>
