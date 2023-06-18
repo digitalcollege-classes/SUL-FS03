@@ -20,25 +20,33 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
       <td rowspan="4" colspan="1">
         <a href="m1/">Módulo 1 - Fundamentos do Desenvolvimento Web</a>
       </td>
-      <td>1 - Introdução ao Desenvolvimento Web</td>
+      <td>
+        <a href="m1/u1/">1 - Introdução ao Desenvolvimento Web</a>
+      </td>
       <td>Entender os papéis dos profissionais dentro de uma equipe de desenvolvimento, desde a concepção da ideia até a entrega do produto nas mãos do cliente. Compreender o uso das tecnologias de front-end e back-end e transação dos dados através dos protocolos de transporte da Web.</td>
       <td>14</td>
       <td align="center">Concluído</td>
     </tr>
     <tr>
-      <td>2 - HTML &amp; CSS</td>
+      <td>
+        <a href="m1/u2/">2 - HTML &amp; CSS</a>
+      </td>
       <td>Saber construir uma página Web do zero, utilizando a linguagem de marcação HTML e a linguagem de estilo CSS. Ao final dessa unidade, o aluno será capaz de criar, identificar e dar manutenção em sites estáticos.</td>
       <td>8</td>
       <td align="center">Em andamento</td>
     </tr>
     <tr>
-      <td>3 - Git e GitHub</td>
+      <td>
+        <a href="m1/u3/">3 - Git &amp; GitHub</a>
+      </td>
       <td>Saber utilizar, com familiaridade, os comandos específicos do Git, a navegação e a manipulação de arquivos com a linha de comando. E com isso, versionar um projeto trabalhando em equipe.</td>
       <td>2</td>
       <td align="center">-</td>
     </tr>
     <tr>
-      <td>4 - Bibliotecas para HTML &amp; CSS</td>
+      <td>
+        <a href="m1/u4/">4 - Bibliotecas para HTML &amp;amp; CSS</a>
+      </td>
       <td>Aprimorar a construção de sites e torná-los responsivos, reutilizando ferramentas já existentes e validadas no mercado.</td>
       <td>4</td>
       <td align="center">-</td>
