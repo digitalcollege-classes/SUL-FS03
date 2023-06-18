@@ -125,7 +125,7 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
       <td align="center">-</td>
     </tr>
     <tr>
-      <td colspan="3">Totais</td>
+      <td colspan="3">Total de encontros</td>
       <td colspan="2">96</td>
     </tr>
   </tbody>

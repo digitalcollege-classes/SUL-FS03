@@ -56,8 +56,9 @@ No nosso caso o comando seria baseado na URL do projeto principal (upstream) ou 
 Um exemplo seria:
 
 ```bash
-git clone git@github.com:digitalcollege-classes/SUL-FS03.git
+git clone git@github.com:digitalcolleger/SUL-FS03.git
 ```
+Onde `digitalcolleger` é o nome do usuário no GitHub e `SUL-FS03` é o nome do repositório.
 
 #### Configurar a autoria dos commits
 
@@ -70,6 +71,28 @@ git config user.email "<your_email@example.com>"
 ```bash
 git config user.name "<your_name>"
 ```
+
+#### Aplicando mudanças ao repositório
+
+Nesta seção veremos como funciona o fluxo de trabalho com o Git. Para isso, vamos utilizar o repositório que acabamos de
+clonar.
+
+##### Verificar o status do repositório
+
+Para verificar o status do repositório, rode o comando abaixo no terminal:
+
+```bash
+git status
+```
+
+A saída será algo parecido com o que está abaixo:
+
+```bash
+On branch main
+Your branch is up to date with 'origin/main'.
+```
+
+##### Adicionar arquivos
 
 #### Acesso a repositórios remotos
 
