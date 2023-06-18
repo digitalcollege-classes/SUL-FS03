@@ -12,7 +12,8 @@ usando ```color, font, text, background, padding, margin```
 O CSS é uma linguagem de folhas de estilo criada para estilizar páginas HTML. A sigla **CSS** significa `Cascading Style
 Sheets`, que em português significa Folhas de Estilo em Cascata. CSS é uma linguagem que permite estilizar páginas da
 web. Com ela é possível alterar a cor do texto, a fonte, o espaçamento entre os parágrafos, o tamanho das colunas e o
-layout de sua página. Criada em 1996, desde então vem sendo a principal ferramenta utilizado para estilizar páginas da web.
+layout de sua página. Criada em 1996, desde então vem sendo a principal ferramenta utilizado para estilizar páginas da
+web.
 
 #### Sintaxe
 
@@ -21,17 +22,18 @@ será estilizado e o bloco de declaração é onde ficam as propriedades e os va
 
 ```css
 selector {
-  property: value;
+    property: value;
 }
 ```
 
 Todos os elementos de uma página HTML podem ser estilizados com CSS. Para isso, basta selecionar o elemento e aplicar
-as propriedades e valores desejados. Por exemplo, para alterar a cor do texto de todos os parágrafos de uma página, basta
+as propriedades e valores desejados. Por exemplo, para alterar a cor do texto de todos os parágrafos de uma página,
+basta
 selecionar o elemento `p` e aplicar a propriedade `color` com o valor desejado.
 
 ```css
 p {
-  color: red;
+    color: red;
 }
 ```
 
@@ -48,9 +50,9 @@ aplicado na página.
   <meta charset="UTF-8">
   <title>Exemplo de CSS</title>
   <style>
-    p {
-      color: red;
-    }
+  p {
+    color: red;
+  }
   </style>
 </head>
 <body>
@@ -58,6 +60,7 @@ aplicado na página.
 </body>
 </html>
 ```
+
 A segunda forma de aplicar CSS é utilizando a propriedade `style` diretamente no elemento HTML. Essa propriedade recebe
 como valor um código CSS. Por exemplo, para alterar a cor do texto de um parágrafo, basta adicionar a propriedade
 `style` no elemento `p` e passar como valor a propriedade `color` com o valor desejado.
@@ -84,7 +87,10 @@ colocada dentro da tag `<head>` da página HTML. O atributo `href` recebe o cami
 <head>
   <meta charset="UTF-8">
   <title>Exemplo de CSS</title>
-  <link rel="stylesheet" href="style.css">
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
 </head>
 <body>
   <p>Olá, mundo!</p>
@@ -95,6 +101,11 @@ colocada dentro da tag `<head>` da página HTML. O atributo `href` recebe o cami
 ### Sugestões de atividades práticas
 
 Estas sugestões podem ser desenvolvidas em sala de aula para exercitar os conceitos aprendidos neste módulo.
+
+- Crie um arquivo `<username>/double.html` e estilize os elementos com CSS dispostos em dois arquivos;
+- Faça download deste site [aqui](http://bettermotherfuckingwebsite.com) salve como `<username>/website.html` e
+  personalize alguns elementos;
+- Crie um arquivo `<username>/simple.html` e recrie em HTML o conteúdo da imagem que está [aqui](examples/simple.jpg);
 
 ### Materiais Adicionais
 

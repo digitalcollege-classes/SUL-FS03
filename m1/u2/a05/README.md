@@ -123,9 +123,9 @@ Para associar um label a um campo, utilizamos o atributo `for` no label, e o atr
 
 Estas sugestões podem ser desenvolvidas em sala de aula para exercitar os conceitos aprendidos neste módulo.
 
-- Crie um arquivo `fieldset.html` e utilize `<fieldset>` para agrupar os campos do formulário;
-- Crie um arquivo `reset.html` e configure um botão de `reset` para limpar o formulário;
-- Crie um arquivo chamado `validate.html` e implemente validação para um formulário.
+- Crie um arquivo `<username>/fieldset.html` e utilize `<fieldset>` para agrupar os campos do formulário;
+- Crie um arquivo `<username>/reset.html` e configure um botão de `reset` para limpar o formulário;
+- Crie um arquivo chamado `<username>/validate.html` e implemente validação para um formulário.
 
 ### Materiais Adicionais
 
