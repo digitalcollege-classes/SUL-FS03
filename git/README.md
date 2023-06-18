@@ -194,3 +194,34 @@ Para enviar os commits para o repositório remoto, rode o comando abaixo no term
 ```bash
 git push
 ```
+
+Exemplo de `push` bem sucedido:
+
+```output
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 713 bytes | 713.00 KiB/s, done.
+Total 7 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:digitalcolleger/SUL-FS03.git
+   60e66b4..d5e2602  main -> main
+```
+
+### Problemas comuns
+
+
+### Material em video
+
+[Criar clone local](https://youtu.be/PJYPtzZFjOU)
+
+[Configurar autoria dos commits](https://youtu.be/qGtEr8h98g4)
+
+[Manipulação de arquivos](https://youtu.be/8drU6mQDl_0)
+
+[Configuração para trabalhar com repositórios remotos (acesso via SSH)](https://youtu.be/18YWZdit3_8)
+
+### Material adicional
+
+- [Git e GitHub para iniciantes](https://www.youtube.com/watch?v=2alg7MQ6_sI)
