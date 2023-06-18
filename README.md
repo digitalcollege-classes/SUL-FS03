@@ -52,52 +52,74 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
       <td align="center">-</td>
     </tr>
     <tr>
-      <td rowspan="3" colspan="1">Módulo 2 - Programação Front-End em Javascript</td>
-      <td>1 - Lógica de Programação em Javascript</td>
+      <td rowspan="3" colspan="1">
+        <a href="m2/">Módulo 2 - Programação Front-End em Javascript</a>
+      </td>
+      <td>
+        <a href="m2/u1/">1 - Lógica de Programação em Javascript</a>
+      </td>
       <td>Aprender os conceitos básicos da programação como estrutura de dados e de controle, aplicando isso nos sites que foram construídos.</td>
       <td>8</td>
       <td align="center">-</td>
     </tr>
     <tr>
-      <td>2 - Javascript</td>
+      <td>
+        <a href="m2/u2/">2 - Javascript</a>
+      </td>
       <td>Validar formulários e criar a interatividade do usuário com os componentes da página Web. Consumir serviços Web e/ou API REST, para desenvolver aplicações Web flúidas e com usabilidade.</td>
       <td>12</td>
       <td align="center">-</td>
     </tr>
     <tr>
-      <td>3 - ReactJS</td>
+      <td>
+        <a href="m2/u3/">3 - ReactJS</a>
+      </td>
       <td>Reutilizar a estrutura do React para criar aplicações Web interativas de forma mais ágil, baseada na organização e gerenciamento do comportamento dos componentes.</td>
       <td>12</td>
       <td align="center">-</td>
     </tr>
     <tr>
-      <td rowspan="3" colspan="1">Módulo 3 - Desenvolvendo Back-End</td>
-      <td>1 - Node.js</td>
+      <td rowspan="3" colspan="1">
+        <a href="m3/">Módulo 3 - Desenvolvimento Back-End</a>
+      </td>
+      <td>
+        <a href="m3/u1/">1 - Node.js</a>
+      </td>
       <td>Aplicar todo o conhecimento em Javascript para trabalhar no backend, ou seja, aplicações que são executadas do lado do servidor.</td>
       <td>6</td>
       <td align="center">-</td>
     </tr>
     <tr>
-      <td>2 - Express.js</td>
+      <td>
+        <a href="m3/u2/">2 - Express.js</a>
+      </td>
       <td>Aprender uma biblioteca de mercado que ajuda a ganhar produtividade na hora de criar e manter uma API Restful.</td>
       <td>12</td>
       <td align="center">-</td>
     </tr>
     <tr>
-      <td>3 - Banco de Dados</td>
+      <td>
+        <a href="m3/u3/">3 - Banco de Dados</a>
+      </td>
       <td>Aprender a integrar nossas APIs com uma base de dados real, aprenda a manipular a estrutura e os registros de um banco de dados através do Javascript.</td>
       <td>10</td>
       <td align="center">-</td>
     </tr>
     <tr>
-      <td rowspan="2" colspan="1">Módulo 4 - Testes Automatizados</td>
-      <td>1 - Testes automatizados com Cypress</td>
+      <td rowspan="2" colspan="1">
+        <a href="m4/">Módulo 4 - Testes Automatizados</a>
+      </td>
+      <td>
+        <a href="m4/u1/">1 - Testes automatizados com Cypress</a>
+      </td>
       <td>Compreender a criação de testes para as aplicações web, aprendendo a criar códigos que testam os códigos utilizando uma ferramente de teste automatizado end-to-end.</td>
       <td>4</td>
       <td align="center">-</td>
     </tr>
     <tr>
-      <td>2 - Testes automatizados para APIs</td>
+      <td>
+        <a href="m4/u2/">2 - Testes automatizados para APIs</a>
+      </td>
       <td>Aprender a criar testes automatizados para o backend, garantindo o funcionamento dos endpoints criados com o Express.</td>
       <td>4</td>
       <td align="center">-</td>
