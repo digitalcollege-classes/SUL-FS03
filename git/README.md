@@ -58,6 +58,7 @@ Um exemplo seria:
 ```bash
 git clone git@github.com:digitalcolleger/SUL-FS03.git
 ```
+
 Onde `digitalcolleger` é o nome do usuário no GitHub e `SUL-FS03` é o nome do repositório.
 
 #### Configurar a autoria dos commits
@@ -87,14 +88,82 @@ git status
 
 A saída será algo parecido com o que está abaixo:
 
-```bash
+```output
 On branch main
 Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
 ```
+
+##### Abrir o VSCode
+
+Para abrir o VSCode, rode o comando abaixo no terminal:
+
+```bash
+code .
+```
+
+Você também pode abrir o VSCode pelo menu do seu sistema operacional ou atalhos no seu desktop.
 
 ##### Adicionar arquivos
 
+Podemos fazer as alterações que queremos para o nosso projeto e em seguida adicionar os arquivos que queremos que sejam
+versionados.
+
+Edite, crie ou apague arquivos e pastas no seu projeto. Em seguida, rode o comando abaixo no terminal para verificar o
+`status` do repositório:
+
+```bash
+git status
+```
+
+Para adicionar arquivos que foram modificados, rode o comando abaixo no terminal:
+
+```bash
+git add <file_name>
+```
+
+Caso queira adicionar todas as mudanças podemos usar o `.` como parâmetro:
+
+```bash
+git add .
+```
+
+##### Criar um commit
+
+Para criar um commit, rode o comando abaixo no terminal:
+
+```bash
+git commit -m "<commit_message>"
+```
+
+Para ver o histórico local de commits do repositório, rode o comando abaixo no terminal:
+
+```bash
+git log
+```
+
+> Use o atalho `q` para sair do log caso ele seja muito grande e a tela fique travada.
+
 #### Acesso a repositórios remotos
+
+Se tentarmos fazer um `push` da forma com que nosso projeto está momento receberemos um erro porque ele não estará
+configurado para acessar o repositório remoto. Para isso, precisamos configurar o acesso aos repositórios remotos.
+
+Exemplo de erro:
+
+```output
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 713 bytes | 713.00 KiB/s, done.
+Total 7 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:digitalcolleger/SUL-FS03.git
+ ! [remote rejected] main -> main (permission denied)
+error: failed to push some refs to 'github.com:digitalcolleger/SUL-FS03.git'
+```
 
 O acesso aos repositórios remotos tem sido desencorajado por meio de senha. Para isso, é necessário gerar uma chave SSH
 e cadastrá-la no GitHub.
@@ -116,4 +185,12 @@ Cadastre esta chave gerada no GitHub.
 
 ```bash
 git config --add --local core.sshCommand 'ssh -i <your_ssh_key>'
+```
+
+#### Enviar commits para o repositório remoto
+
+Para enviar os commits para o repositório remoto, rode o comando abaixo no terminal:
+
+```bash
+git push
 ```
