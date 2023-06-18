@@ -32,7 +32,7 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
         <a href="m1/u2/">2 - HTML &amp; CSS</a>
       </td>
       <td>Saber construir uma página Web do zero, utilizando a linguagem de marcação HTML e a linguagem de estilo CSS. Ao final dessa unidade, o aluno será capaz de criar, identificar e dar manutenção em sites estáticos.</td>
-      <td>8</td>
+      <td>10</td>
       <td align="center">Em andamento</td>
     </tr>
     <tr>
@@ -126,7 +126,6 @@ Não existe pergunta burra e não existe dúvida inválida. Dentro da sala de au
     </tr>
     <tr>
       <td colspan="3">Totais</td>
-      <td>192</td>
       <td colspan="2">96</td>
     </tr>
   </tbody>
