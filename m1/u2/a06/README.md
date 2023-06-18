@@ -92,6 +92,10 @@ colocada dentro da tag `<head>` da página HTML. O atributo `href` recebe o cami
 </html>
 ```
 
+### Sugestões de atividades práticas
+
+Estas sugestões podem ser desenvolvidas em sala de aula para exercitar os conceitos aprendidos neste módulo.
+
 ### Materiais Adicionais
 
 Esta seção é opcional, mas caso queira se aprofundar mais no assunto, você pode consultar os materiais a seguir.
