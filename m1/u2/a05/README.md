@@ -16,7 +16,6 @@ indica qual o método de envio dos dados.
 O método `GET` envia os dados pela URL, enquanto o método `POST` envia os dados no corpo da requisição.
 
 ```html
-
 <html lang="pt-br">
 <head>
   <title>Formulário</title>
@@ -30,6 +29,15 @@ O método `GET` envia os dados pela URL, enquanto o método `POST` envia os dado
   </form>
 </body>
 </html>
+```
+
+##### O comportamento do button dentro do form
+
+O comportamento padrão do button num `<form>` é o de enviar o formulário. Para alterar esse comportamento, podemos
+utilizar o atributo `type` com o valor `button`.
+
+```html
+<button type="button">Enviar</button>
 ```
 
 #### Campos de texto
@@ -48,10 +56,64 @@ Para criar um campo de senha, utilizamos a tag `<input>` com o atributo `type="p
 <input type="password" />
 ```
 
-### Materiais
+#### Campos de checkbox
+
+Para criar um campo de checkbox, utilizamos a tag `<input>` com o atributo `type="checkbox"`.
+
+```html
+<input type="checkbox" />
+```
+
+#### Campos de seleção única
+
+Para criar um campo de seleção única, utilizamos a tag `<input>` com o atributo `type="radio"`.
+
+```html
+<input type="radio" />
+```
+
+#### Campos de texto longo
+
+Para criar um campo de texto longo, utilizamos a tag `<textarea>`.
+
+```html
+<textarea></textarea>
+```
+
+#### Propriedades importantes para os campos
+
+##### name
+
+O atributo `name` é utilizado para identificar o campo no formulário. Ele é importante para que o servidor saiba como
+identificar os dados que foram enviados.
+
+```html
+<input type="text" name="nome" />
+```
+
+##### id
+
+O atributo `id` é utilizado para identificar o campo no documento. Ele é importante para que o navegador saiba como
+identificar os campos.
+
+```html
+<input type="text" id="nome" />
+```
+
+#### Atribuir um label a um campo
+
+Para associar um label a um campo, utilizamos o atributo `for` no label, e o atributo `id` no campo.
+
+```html
+<label for="nome">Nome</label>
+<input type="text" id="nome" />
+```
+
+### Materiais Adicionais
 
 Esta seção é opcional, mas caso queira se aprofundar mais no assunto, você pode consultar os materiais a seguir.
 
 #### Artigos
 
 - [Meu primeiro formulário HTML no MDN](https://developer.mozilla.org/pt-BR/docs/Learn/Forms/Your_first_form)
+- [HTML <form> Tag no W3 Docs](https://www.w3docs.com/learn-html/html-form-tag.html)
