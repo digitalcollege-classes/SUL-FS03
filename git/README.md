@@ -211,6 +211,51 @@ To github.com:digitalcolleger/SUL-FS03.git
 
 ### Problemas comuns
 
+#### Erro ao fazer push
+
+Caso você receba um erro parecido com o abaixo, significa que você não está com o repositório atualizado.
+
+```output
+To github.com:digitalcolleger/SUL-FS03.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:digitalcolleger/SUL-FS03.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+Para isso, rode o comando abaixo no terminal:
+```bash
+git pull
+```
+
+#### Conflitos ao fazer pull
+
+Caso você receba um erro parecido com o abaixo, significa que você está tentando fazer um `pull` de um repositório que
+possui mudanças que conflitam com as mudanças que você fez no seu repositório local.
+
+```output
+remote: Enumerating objects: 31, done.
+remote: Counting objects: 100% (29/29), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 17 (delta 10), reused 7 (delta 3), pack-reused 0
+Unpacking objects: 100% (17/17), 3.45 KiB | 220.00 KiB/s, done.
+From github.com:digitalcolleger/SUL-FS03
+   d5e2602..ebabe26  main       -> origin/main
+Auto-merging m1/u2/a04/digitalcolleger/index.html
+CONFLICT (content): Merge conflict in m1/u2/a04/digitalcolleger/index.html
+Automatic merge failed; fix conflicts and then commit the result.
+```
+
+Para resolver este problema abra os arquivos listados e resolva os conflitos. Em seguida, rode o comando abaixo no
+terminal:
+
+```bash
+git add .
+git commit -m "Resolvendo conflitos"
+git push
+```
 
 ### Material em video
 

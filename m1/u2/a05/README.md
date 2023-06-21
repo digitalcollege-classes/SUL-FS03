@@ -100,6 +100,16 @@ identificar os campos.
 <input type="text" id="nome" />
 ```
 
+##### value
+
+O atributo `value` é utilizado para definir o valor inicial do campo.
+
+```html
+<input type="text" value="Valor inicial" />
+<input type="checkbox" value="1" />
+<textarea cols="30" rows="10">Valor inicial</textarea>
+```
+
 #### Atribuir um label a um campo
 
 Para associar um label a um campo, utilizamos o atributo `for` no label, e o atributo `id` no campo.
@@ -108,6 +118,14 @@ Para associar um label a um campo, utilizamos o atributo `for` no label, e o atr
 <label for="nome">Nome</label>
 <input type="text" id="nome" />
 ```
+
+### Sugestões de atividades práticas
+
+Estas sugestões podem ser desenvolvidas em sala de aula para exercitar os conceitos aprendidos neste módulo.
+
+- Crie um arquivo `<username>/fieldset.html` e utilize `<fieldset>` para agrupar os campos do formulário;
+- Crie um arquivo `<username>/reset.html` e configure um botão de `reset` para limpar o formulário;
+- Crie um arquivo chamado `<username>/validate.html` e implemente validação para um formulário.
 
 ### Materiais Adicionais
 

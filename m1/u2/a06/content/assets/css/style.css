@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    background: #626262;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+
+.text-regular {
+    font-size: 1rem;
+}
+
+.text-large {
+    font-size: 1.3rem;
+}
