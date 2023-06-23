@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(77, 129, 129);
+}
+h1 {
+  text-align: center;
+  margin: 0px auto;
+  border-radius: 10px;
+  box-shadow: 3px 2px 4px 3px;
+  background-color: rgb(160, 160, 237);
+}
+h2 {
+  text-align: center;
+  background-color: #dbc6b5;
+  box-shadow: 3px 1px 4px 3px;
+  border-radius: 20px;
+}
+.p1 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 18px;
+}
+.imgcss {
+  margin-left: 230px;
+  margin-right: 20px;
+  width: 120px;
+  height: 120px;
+}
+ 
+button{
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background-color: rgb(166, 17, 91);
+  border-radius: 4px;
+  width: 200px;
+  height: 30px;
+  font-size: 17px;
+  color: white ;
+}
