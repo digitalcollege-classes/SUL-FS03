@@ -134,4 +134,4 @@ Esta seção é opcional, mas caso queira se aprofundar mais no assunto, você p
 #### Artigos
 
 - [Meu primeiro formulário HTML no MDN](https://developer.mozilla.org/pt-BR/docs/Learn/Forms/Your_first_form)
-- [HTML <form> Tag no W3 Docs](https://www.w3docs.com/learn-html/html-form-tag.html)
+- [Tag HTML `<form>` no W3 Docs](https://www.w3docs.com/learn-html/html-form-tag.html)
