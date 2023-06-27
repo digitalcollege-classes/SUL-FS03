@@ -1,0 +1,24 @@
+/* Exemplo 1: Seletor descendente */
+div p {
+    color: blue;
+}
+
+/* Exemplo 2: Seletor de filho direto */
+div > p {
+    font-weight: bold;
+}
+
+/* Exemplo 3: Seletor irmão adjacente */
+h2 + p {
+    font-style: italic;
+}
+
+/* Exemplo 4: Seletor irmão geral */
+h2 ~ p {
+    text-decoration: underline;
+}
+
+/* Exemplo 5: Seletor de descendente direto */
+div big > small {
+    color: red;
+}
