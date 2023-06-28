@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(7, 7, 7);
+    padding: 10px;
+}
+
+h1 {
+    margin: 20px;
+    color: white;
+    align-content: center;
+}
+
+p {
+    color: orangered;
+}
