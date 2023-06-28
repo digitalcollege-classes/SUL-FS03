@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Exemplos de CSS com :not() e !important</title>
+  <style>
+  .destaque {
+      font-weight: bold;
+      text-decoration: underline;
+  }
+  /* Exemplo 1: Seletor :not() */
+  p:not(.destaque) {
+      color: gray;
+  }
+
+  /* Exemplo 2: Propriedade !important */
+  p.important {
+      color: red !important;
+  }
+  </style>
+</head>
+<body>
+  <p>Exemplo 1: Eu sou um parágrafo.</p>
+  <p class="destaque">Exemplo 2: Eu sou um parágrafo com a classe "destaque".</p>
+  <p>Exemplo 3: Eu sou outro parágrafo.</p>
+  <p class="important">Exemplo 4: Eu sou um parágrafo com a classe "important".</p>
+</body>
+</html>
