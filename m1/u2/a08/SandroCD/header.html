@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,23 +12,27 @@
             margin: 0;
             padding: 0;
         }
+
         .header {
             background-color: white;
             border-bottom: 1px solid #f0f0f0;
             height: 100px;
-            box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+            box-shadow: 0 2px 5px 1px rgba(64, 60, 67, .16);
         }
+
         .header__container {
             max-width: 80vw;
             margin: 0 auto;
             padding: 15px 0;
         }
+
         .header__logo {
             display: flex;
             gap: 0.5rem;
             align-items: center;
             color: #c92071
         }
+
         .header__pesquisa {
             min-width: 50%;
             display: flex;
@@ -48,13 +53,33 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 
-        .search
-        .lupa {
+        .search .lupa {
             height: 0.4cm;
         }
 
+        .compras {
+            background-color: #c92071;
+            border: 0;
+            height: 1cm;
+            width: 1cm;
+        }
+
+        header__compras {
+            background-color: #c92071;
+            border: 0;
+            height: 0.8cm;
+            width: 0.8cm;
+        }
+
+        #carrinho_branco {
+            height: 0.8cm;
+            width: 0.8cm;
+            justify-content: center;
+            align-content: center;
+        }
     </style>
 </head>
+
 <body>
     <header class="header">
         <div class="header__container">
@@ -64,7 +89,7 @@
                 <div class="header__pesquisa">
                     <input type="text" placeholder="Pesquise o produto...">
                     <button class="search"><img src="../@content/assets/images/search.png" alt="" class="lupa"></button>
-                    
+
                 </div>
                 <div class="header__cadastro">
                     <a href="">Cadastre-se</a>
@@ -74,7 +99,11 @@
                         Entrar
                     </button>
                 </div>
-            </div>        
+                <div class="header__compras">
+                    <button class="compras"><img src="imagens/carrinho_branco.png" alt="carrinho" id="carrinho_branco"></button>
+                </div>
+            </div>
+        </div>
     </header>
 </body>
 
