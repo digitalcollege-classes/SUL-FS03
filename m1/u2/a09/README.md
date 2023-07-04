@@ -41,15 +41,15 @@ p::first-line {
 
 - ::after: cria um pseudo-elemento que é inserido após o elemento selecionado.
 
-::before: cria um pseudo-elemento que é inserido antes do elemento selecionado.
+- ::before: cria um pseudo-elemento que é inserido antes do elemento selecionado.
 
-::cue: especifica a parte do conteúdo de um elemento que é falado por um dispositivo de fala.
+- ::cue: especifica a parte do conteúdo de um elemento que é falado por um dispositivo de fala.
 
-::first-letter: seleciona a primeira letra de um elemento.
+- ::first-letter: seleciona a primeira letra de um elemento.
 
-::first-line: seleciona a primeira linha de um elemento.
+- ::first-line: seleciona a primeira linha de um elemento.
 
-::selection: seleciona o conteúdo de um elemento que foi "selecionado" pelo usuário.
+- ::selection: seleciona o conteúdo de um elemento que foi "selecionado" pelo usuário.
 
 ### Exemplos de pseudo-classes
 
