@@ -1,4 +1,4 @@
-# 9 - Layout e diagramação
+# 9 - Pseudo-elementos, transições e animações
 
 ### Objetivo
 
