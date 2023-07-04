@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        main > p {
+            color: red;
+        }
+        footer {
+            background-color: #1f1f1f;
+            color: rgb(55, 51, 51);
+            padding: 20px;
+        }
+        footer > p,
+        #minha-div {
+            color: red;
+        }
+        footer > div > p {
+            color: orange;
+        }
+        .text-primary {
+            color: blue !important;
+        }
+        #minha-div ~ p {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <p>
+            Mé faiz elementum girarzis, nisi eros vermeio. Cevadis im ampola pa arma uma pindureta.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Posuere libero varius.
+        </p>
+    </main>
+    <footer>
+        <p>
+            Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi.
+        </p>
+        <div id="minha-div">
+            <p>aqui dentro</p>
+        </div>
+        <p>
+            Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi.
+        </p>
+    </footer>
+</body>
+</html>
