@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        body {
+            margin: 50px;
+        }
+        main {
+            background-color: rgb(252, 106, 1);
+            padding: 25px;
+        }
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: greenyellow;
+            transition: transform 1s;
+        }
+        #trigger {
+            display: none;
+        }
+        #trigger:checked + .square {
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <button>
+        <label for="trigger">
+            Hora de girar
+        </label>
+    </button>
+    <main>
+        <input type="checkbox" id="trigger">
+        <div class="square rotate"></div>
+    </main>
+</body>
+</html>
