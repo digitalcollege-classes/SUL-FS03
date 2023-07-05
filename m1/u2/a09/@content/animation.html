@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="ie=edge"
+  >
+  <title>ANIMATION</title>
+  <style>
+  body {
+      margin: 5%;
+      background: #808080;
+  }
+
+  main {
+      padding: 20px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+      transition: background-color 1s ease-in-out;
+  }
+
+  .change-color {
+      animation: red-to-yellow 5s linear 2s infinite alternate;
+  }
+
+  @keyframes red-to-yellow {
+      from {
+          background-color: red;
+      }
+      to {
+          background-color: yellow;
+      }
+  }
+  </style>
+</head>
+<body>
+  <main class="change-color">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, adipisci alias asperiores aspernatur
+    consequatur cumque cupiditate delectus doloremque doloribus ea earum eius eligendi error esse est eum eveniet
+    excepturi exercitationem explicabo facere facilis fugiat fugit hic illum impedit in incidunt ipsa ipsum iure
+    laboriosam laborum libero magnam magni maiores maxime molestiae molestias mollitia natus nemo neque nihil nisi nobis
+    non nostrum nulla numquam obcaecati officia officiis omnis optio pariatur perferendis perspiciatis
+  </main>
+</body>
+</html>

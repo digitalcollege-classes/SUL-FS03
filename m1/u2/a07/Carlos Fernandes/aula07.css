@@ -1,0 +1,32 @@
+body{
+margin: 0;
+}
+
+.cabeçalho{
+  color: blue;
+  font-size: 30px;
+  margin: 50px;
+}
+footer{
+  padding: 50px;
+  background-color: black;
+  color: aliceblue;
+  font-size: 30px;
+  text-align: center;
+}
+
+.p1{
+  color: brown;
+  text-align: left;
+}
+.p2{
+  color: blue;
+  text-align: left;
+}
+.p3{
+  color: green;
+  text-align: left;
+}
+a:rover{
+  background-color: brown;
+}

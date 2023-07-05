@@ -1,0 +1,109 @@
+body {
+    background: #E0E0E0;
+    font-family: verdana, sans-serif;
+}
+
+.behavior {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+}
+
+.menu-toggle {
+    display: block;
+    position: relative;
+    width: 36px;
+    height: 36px;
+    padding: 6px 10px;
+    border-radius: 2px;
+    transition: all .25s;
+    cursor: pointer;
+}
+
+.icon-bar {
+    display: block;
+    height: 4px;
+    background: #E0E0E0;
+    border-radius: 2px;
+    width: 36px;
+    margin: 6px 0;
+    transform: rotate(0deg);
+    transition: all .25s;
+}
+
+.behavior:checked + .menu-toggle {
+    /*background-color: transparent;*/
+    /*border: 1px solid transparent;*/
+}
+
+.behavior:checked + .button-toggle .menu-toggle .icon-bar {
+    top: 16px;
+    position: absolute;
+    /*background-color: #2C933D;*/
+}
+
+.behavior:checked + .button-toggle .menu-toggle .icon-bar:nth-child(1) {
+    transform: rotate(-135deg);
+}
+
+.behavior:checked + .button-toggle .menu-toggle .icon-bar:nth-child(3) {
+    transform: rotate(135deg);
+}
+
+.behavior:checked + .button-toggle .menu-toggle .icon-bar:nth-child(2) {
+    transform: translate(-95px, 0);
+    opacity: 0;
+}
+
+.button-toggle {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 13rem;
+    text-align: left;
+    background: #2C933D;
+    color: #fff;
+    padding: 48px 1rem 0 1rem;
+    transition: 0.3s;
+}
+
+.behavior:checked ~ .sidebar {
+    transform: translateX(-15rem);
+}
+
+.header {
+    left: 15rem;
+    width: 100%;
+    transition: .3s;
+    height: 50px;
+    background: #2c933d;
+    position: fixed;
+    top: 0;
+}
+
+.behavior:checked ~ .header {
+    transform: translateX(-15rem);
+}
+
+.content {
+    margin: 60px 1rem 0 16rem;
+    background: #FFFFFF;
+    padding: 1rem;
+    transition: .3s;
+    border-radius: 2px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .14), 0 3px 3px -2px rgba(0, 0, 0, .2), 0 1px 8px 0 rgba(0, 0, 0, .12);
+}
+
+.behavior:checked ~ .content {
+    margin: 60px 1rem 0 1rem;
+}

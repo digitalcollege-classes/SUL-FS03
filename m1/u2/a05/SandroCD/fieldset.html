@@ -5,21 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercitando Formulário FIELDSET</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
 </head>
 
 <body>
     <form action="" method="post">
         <fieldset id="usuário">
             <p>Nome: <input type="text" placeholder="Nome completo">
+            <p>Nascimento: <input type="date" id="data">
             <p>Senha: <input type="password" placeholder="********" required minlength="6" maxlength="8">
             <p>E-mail: <input type="email" placeholder="usuario@dominio.com">
             <fieldset>
                 <p>DDD: <input type="number" placeholder="99" minlength="2" maxlength="2">
                 <p>Telefone: <input type="number" placeholder="999999999" minlength="8" maxlength="9">
             </fieldset>
-            <fieldset id="sexo">
-                <input id="check" name="sexo" type="radio" required>Cliente
-                <input id="check" name="sexo" type="radio" required>Não cliente <br>
+            <fieldset id="cliente">
+                <input id="check" name="cliente" type="radio" required>Cliente
+                <input id="check" name="cliente" type="radio" required>Não cliente <br>
             </fieldset>
         </fieldset>
 
