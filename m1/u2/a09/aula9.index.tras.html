@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        body {
+            margin: 50px;
+        }
+        main {
+            background-color: red;
+            padding: 25px;
+        }
+        .square {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            transition: transform 1s;
+        }
+        .rotate {
+            transform: rotate(45deg) scale(1);
+        }
+        p::first-line {
+            color: blueviolet;
+        }
+        p::after {
+            content: 'Marcos';
+            color: brown;
+        }
+
+        p{
+            padding: 100px;
+        }
+        #trigger {
+            /*display: none;*/
+        }
+        #trigger:checked + .square {
+            transform: rotate(45deg);
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <button>
+        <label for="trigger">
+            Hora de Rodar
+        </label>
+    </button>
+    <main>
+        <input type="checkbox" id="trigger">
+        <div class="square"></div>
+    </main>
+    <br><br>
+    <p>  <strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam facilis repellendus optio saepe animi consequuntur ratione, delectus veniam quas at, tempora ducimus sapiente veritatis iste reiciendis qui omnis! Doloribus, earum! </strong></p>
+
+</body>
+</html>
