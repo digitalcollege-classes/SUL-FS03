@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PULSE</title>
+    <style>
+        body {
+            margin: 50px;
+        }
+
+        .circle {
+            width: 30px;
+            height: 30px;
+            background-color: green;
+            border-radius: 50%;
+        }
+
+        .pulse {
+            animation: pulse 2s linear infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(127, 239, 71, 0.7);
+            }
+
+            70% {
+                transform: scale(1);
+                box-shadow: 0 0 0 50px rgba(127, 239, 71, 0);
+            }
+
+            100% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(127, 239, 71, 0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="circle pulse"></div>
+</body>
+</html>
