@@ -18,12 +18,19 @@ desenvolvimento. Ao executar este exemplo pode ser visto algo como o exemplo aba
 ![image](https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/c489b285-c4f0-4487-abfd-91439c8a6106)
 
 Na própria pasta `@content` temos alguns recursos que podem ser usados para as imagens que estão no design.
-![image](https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/4ed0ae96-b98e-4e56-be79-00f832a34def)
+<p align="center">
+<img
+  height="400"
+  src="https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/4ed0ae96-b98e-4e56-be79-00f832a34def"
+>
+</p>
 
 ### Dicas
 
 #### Pelo figma é possível ver as linhas do form.
-![image](https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/f3639cbb-a43e-4637-9ec8-8405b3cfc290)
+<p>
+  <img src="https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/f3639cbb-a43e-4637-9ec8-8405b3cfc290" height="400">
+</p>
 
 #### Também dá para pegar uma ideia da largura do form.
 ![image](https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/523db61b-c129-4be1-8bbf-e4755b9e2cd1)
