@@ -29,12 +29,10 @@
   />
 
   <style>
-    body {
-      background-color: blueviolet;
-    }
+
     form {
       padding: 10px;
-      background-color: white;
+      background-color: none;
       width: 40%;
     }
   
@@ -44,25 +42,66 @@
     }
 
     .conteudo__formulario {
-      background-color: white;
-      padding: 20px;
-      border-radius: 6px;
-      margin-top: 25px;
+      background-color:white;
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 20px;
+      width: 400px;
+      height: 370px;
     }
+
     .conteudo__formulario__form {
       min-width: 500px;
     }
+
     .conteudo__formulario__form__titulo {
       font-size: 32px;
       font-weight: 700;
     }
 
+    .conteudo__produto__1 {
+      margin-top: 20px;
+    }
+
+    .conteudo__produto__2 {
+      margin-top: 60px;
+    }
+
+    .login,
+    .senha {
+      font-size: 10px;
+    }
+
+
     #conta {
       background-color: #c92071;
       color: white;
       align-content: center;
-      width: 300px;
+      width: 350px;
       height: 30px;
+      border-radius: 5px;
+    }
+    
+    #gmail {
+      height: 20px;
+      width: 20px;
+    }
+
+    #facebook {
+      height: 20px;
+      width: 20px;
+    }
+
+    #login {
+      height: 32px;
+      width: 350px;
+      background-color: azure;
+    }
+
+    #senha {
+      height: 32px;
+      width: 350px;
+      background-color: azure;
     }
 
 
@@ -118,23 +157,26 @@
           <form action="" method="get" class="conteudo__formulario__form">
               <h1 class="conteudo__formulario__form__titulo">Acesse sua conta</h1>
                 <input type="text">
-          </form>            
-              <p>
-              Novo cliente? Então registre-se <a href="">aqui</a>.
-            </p>
-            <p>Login*</p><input type="text" placeholder="Insira seu login ou email">
-            <p>Senha*</p><input type="password" placeholder="Insira sua senha">
+          </form>
+          <form action="" method="get" class="conteudo__formulario__login">            
+            <p>Novo cliente? Então registre-se <a href="">aqui</a>.</p>
+            <p class="login"><strong>Login *</strong></p>
+              <input type="text" placeholder="Insira seu login ou email" id="login">
+            <p class="senha"><strong>Senha *</strong></p>
+              <input type="password" placeholder="Insira sua senha" id="senha">
             <br>
             <p><a href="">Esqueci minha senha</a></p>
-            <button id="conta">Acessar Conta</button>
-            <p class="sociais">Ou faça login com <img src="assets/images/icons/gmail.png" alt=""> <img src="assets/images/icons/facebook.png" alt=""></p>
+              <button id="conta">Acessar Conta</button>
+            <p>Ou faça login com<img src="assets/images/icons/gmail.png" alt="" id="gmail"><img src="assets/images/icons/facebook.png" alt="" id="facebook"></p>
           </form>
         </div>
+
         <div class="conteudo__produto__1">
-          <img src="assets/images/product-1.png" alt="" height="300px">
+          <img src="assets/images/product-1.png" alt="" height="370px">
         </div>
-        <div>
-          <img src="assets/images/product-2.png" alt="" height="300px">
+
+        <div class="conteudo__produto__2">
+          <img src="assets/images/product-2.png" alt="" height="370px">
         </div>
 
     </main>
