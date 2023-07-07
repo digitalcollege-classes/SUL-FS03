@@ -1,0 +1,91 @@
+<style>
+        body {
+            background-color: #e8e4e4;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: white;
+            border-bottom: 1px solid #f0f0f0;
+            min-height: 100px;
+            box-shadow: 0 2px 5px 1px rgba(64, 60,67, .16);
+        }
+        .header__container {
+            max-width: 90vw;
+            margin: 0 auto;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header__logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #c92071;        
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <img
+              src="assets/images/logo.png"
+              alt="logo digital college"
+            >
+            <h1>Digital Store</h1>
+            </div>
+    </header>
+</body>
+</html>
+
+
+
+  
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  >
+  <link
+    rel="stylesheet"
+    href="assets/css/reset.css"
+  >
+  <link rel="stylesheet" href="../@content/assets/css/reset.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__logo">
+        <img
+          src="../@content/assets/images/logo.png" alt="">
+        <h1>Digital Store</h1>
+      </div>
+      <form class="header__form" action="/search">
+        <label>
+          <input
+            type="text"
+            placeholder="Pesquisar produto..."
+            required
+          >
+        </label>
+        <button>
+          <img
+            src="assets/images/search.png"
+            alt="search"
+          >
+        </button>
+      </form>
+      <div class="header__actions">
+        <a href="javascript:void(0);">
+          Cadastre-se
+        </a>
+        <button>Entrar</button>
+      </div>
+    </div>
+  </header>
+</body>
+</html>
