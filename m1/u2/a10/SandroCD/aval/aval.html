@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    name="viewport"
+  >
+  <meta
+    content="ie=edge"
+    http-equiv="X-UA-Compatible"
+  >
+  <title>Drip Store / Entrar</title>
+  <link
+    href="assets/css/style.css"
+    rel="stylesheet"
+  >
+  <link
+    href="assets/images/favicon.png"
+    rel="shortcut icon"
+    type="image/x-icon"
+  >
+  <link
+    crossorigin="anonymous"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    referrerpolicy="no-referrer"
+    rel="stylesheet"
+  />
+
+  <style>
+    body {
+      background-color: blueviolet;
+    }
+    form {
+      padding: 10px;
+      background-color: white;
+      width: 40%;
+    }
+  
+    main >.container {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .conteudo__formulario {
+      background-color: white;
+      padding: 20px;
+      border-radius: 6px;
+      margin-top: 25px;
+    }
+    .conteudo__formulario__form {
+      min-width: 500px;
+    }
+    .conteudo__formulario__form__titulo {
+      font-size: 32px;
+      font-weight: 700;
+    }
+
+    #conta {
+      background-color: #c92071;
+      color: white;
+      align-content: center;
+      width: 300px;
+      height: 30px;
+    }
+
+
+    
+  </style>
+
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <img
+            src="assets/images/logo.png"
+            alt="logo digital college"
+          >
+          <h1 class="text-primary">Digital Store</h1>
+        </div>
+        <form
+          class="header__form"
+          action="/search"
+        >
+          <label>
+            <input
+              class="text-tertiary"
+              type="text"
+              placeholder="Pesquisar produto..."
+              required
+            >
+          </label>
+          <button>
+            <img
+              src="assets/images/search.png"
+              alt="search"
+            >
+          </button>
+        </form>
+        <div class="header__actions">
+          <a
+            href="javascript:void(0);"
+            class="text-tertiary"
+          >
+            Cadastre-se
+          </a>
+          <button>Entrar</button>
+        </div>
+      </div>
+    </header>
+    
+    <main class="conteudo">
+      <div class="container">
+        <div class="conteudo__formulario">
+          <form action="" method="get" class="conteudo__formulario__form">
+              <h1 class="conteudo__formulario__form__titulo">Acesse sua conta</h1>
+                <input type="text">
+          </form>            
+              <p>
+              Novo cliente? Então registre-se <a href="">aqui</a>.
+            </p>
+            <p>Login*</p><input type="text" placeholder="Insira seu login ou email">
+            <p>Senha*</p><input type="password" placeholder="Insira sua senha">
+            <br>
+            <p><a href="">Esqueci minha senha</a></p>
+            <button id="conta">Acessar Conta</button>
+            <p class="sociais">Ou faça login com <img src="assets/images/icons/gmail.png" alt=""> <img src="assets/images/icons/facebook.png" alt=""></p>
+          </form>
+        </div>
+        <div class="conteudo__produto__1">
+          <img src="assets/images/product-1.png" alt="" height="300px">
+        </div>
+        <div>
+          <img src="assets/images/product-2.png" alt="" height="300px">
+        </div>
+
+    </main>
+    <footer>
+      <div class="container">
+        <div class="top">
+          <div class="brand">
+            <img
+              alt="Digital College"
+              class="logo"
+              src="assets/images/logo-white.png"
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore.
+            </p>
+            <ul>
+              <li>
+                <a href="#">
+                  <img
+                    alt=""
+                    class="social"
+                    src="assets/images/social/facebook.png"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                >
+                  <img
+                    alt=""
+                    class="social"
+                    src="assets/images/social/instagram.png"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    alt=""
+                    class="social"
+                    src="assets/images/social/twitter.png"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="info">
+            <h5>Informação</h5>
+            <ul>
+              <li>
+                <a href="#">Sobre Drip Store</a>
+              </li>
+              <li>
+                <a href="#">Segurança</a>
+              </li>
+              <li>
+                <a href="#">Whishlist</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Trabalhe conosco</a>
+              </li>
+              <li>
+                <a href="#">Meus pedidos</a>
+              </li>
+            </ul>
+          </div>
+          <div class="category">
+            <h5>Categorias</h5>
+            <ul>
+              <li>
+                <a href="#">Camisetas</a>
+              </li>
+              <li>
+                <a href="#">Calças</a>
+              </li>
+              <li>
+                <a href="#">Bonés</a>
+              </li>
+              <li>
+                <a href="#">Headphones</a>
+              </li>
+              <li>
+                <a href="#">Tênis</a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact">
+            <h5>Contato</h5>
+            <p>
+              Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161
+            </p>
+            <p>(85) 3051-3411</p>
+          </div>
+        </div>
+        <div class="divider">
+          <div class="line"></div>
+        </div>
+        <div class="copyright">
+          <small>@ 2023 Digital College</small>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
