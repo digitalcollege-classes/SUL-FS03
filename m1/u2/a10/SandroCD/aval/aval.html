@@ -45,9 +45,9 @@
       background-color:white;
       padding: 15px;
       border-radius: 5px;
-      margin-top: 20px;
-      width: 400px;
-      height: 370px;
+      margin-top: 50px;
+      width: 420px;
+      height: 385px;
     }
 
     .conteudo__formulario__form {
@@ -55,8 +55,13 @@
     }
 
     .conteudo__formulario__form__titulo {
-      font-size: 32px;
-      font-weight: 700;
+      font-size: 25px;
+      font-weight: 700px;
+    }
+
+    .conteudo__formulario__login {
+      display: grid;
+      gap: 13px;
     }
 
     .conteudo__produto__1 {
@@ -72,14 +77,37 @@
       font-size: 10px;
     }
 
+    .redes__sociais {
+      margin-left: 97px;
+      height: 30px;
+      width: 370px;
+      font-size: 12px;
+      display: flex;
+      gap: 15px;
+    }
+
+    .esqueci__senha {
+      font-size: 11px;
+      text-decoration: underline;
+      color: black;
+    }
+
+    .aqui {
+      text-decoration: underline;
+    }
 
     #conta {
       background-color: #c92071;
       color: white;
       align-content: center;
-      width: 350px;
+      width: 370px;
       height: 30px;
       border-radius: 5px;
+      font-size: 12px;
+    }
+
+    #novo__cliente {
+      font-size: 12px;
     }
     
     #gmail {
@@ -93,12 +121,14 @@
     }
 
     #login {
+      font-size: 12px;
       height: 32px;
       width: 350px;
       background-color: azure;
     }
 
     #senha {
+      font-size: 12px;
       height: 32px;
       width: 350px;
       background-color: azure;
@@ -155,28 +185,37 @@
       <div class="container">
         <div class="conteudo__formulario">
           <form action="" method="get" class="conteudo__formulario__form">
-              <h1 class="conteudo__formulario__form__titulo">Acesse sua conta</h1>
-                <input type="text">
-          </form>
-          <form action="" method="get" class="conteudo__formulario__login">            
-            <p>Novo cliente? Então registre-se <a href="">aqui</a>.</p>
+            <h1 class="conteudo__formulario__form__titulo">Acesse sua conta</h1>
+                <input type="text">           
+            <p id="novo__cliente">Novo cliente? Então registre-se <a href="" class="aqui">aqui</a>.</p>
+          </form> 
+          <form action="" method="get" class="conteudo__formulario__login">
             <p class="login"><strong>Login *</strong></p>
-              <input type="text" placeholder="Insira seu login ou email" id="login">
+              <input type="text" placeholder="     Insira seu login ou email" id="login">
             <p class="senha"><strong>Senha *</strong></p>
-              <input type="password" placeholder="Insira sua senha" id="senha">
-            <br>
+              <input type="password" placeholder="     Insira sua senha" id="senha">
+          </form>
+          <form class="esqueci__senha">
             <p><a href="">Esqueci minha senha</a></p>
+          </form>
+          <form action="">
               <button id="conta">Acessar Conta</button>
-            <p>Ou faça login com<img src="assets/images/icons/gmail.png" alt="" id="gmail"><img src="assets/images/icons/facebook.png" alt="" id="facebook"></p>
+          </form>
+          <form action="" class="redes__sociais">
+            <div>
+              <p align="center">Ou faça login com
+            </div>
+            <div><img src="assets/images/icons/gmail.png" alt="" id="gmail"></div>
+            <div><img src="assets/images/icons/facebook.png" alt="" id="facebook"></div>
           </form>
         </div>
 
         <div class="conteudo__produto__1">
-          <img src="assets/images/product-1.png" alt="" height="370px">
+          <img src="assets/images/product-1.png" alt="" height="400px">
         </div>
 
         <div class="conteudo__produto__2">
-          <img src="assets/images/product-2.png" alt="" height="370px">
+          <img src="assets/images/product-2.png" alt="" height="400px">
         </div>
 
     </main>
