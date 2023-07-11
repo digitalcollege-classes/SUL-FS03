@@ -230,6 +230,7 @@ border-radius: 20px;
 
 button {
     background-color: #c92071;
+    width: 300px;
     height: 30px;
     border-radius: 5px;
     
@@ -237,6 +238,21 @@ button {
 
 .container {
     display: inline;
+    margin-right: 5%;
+}
+
+.conteudo__produto__1 {
+    display: inline;
+    margin-right: -25%;
+    margin-left: -25%;
+
+}
+
+.conteudo__produto__2 {
+    display: inline;
+    margin-top: 10%;
+    margin-left: -15%;
+
 }
 
 ::placeholder {
