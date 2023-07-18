@@ -12,6 +12,11 @@ Bootstrap é um framework front-end que facilita a criação de sites e aplicaç
 ferramentas de código aberto para desenvolvimento com HTML, CSS e JavaScript. O Bootstrap é um projeto de código aberto
 disponível no [GitHub](https://github.com/twbs/bootstrapm).
 
+<p align="center">
+  <img src="https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/430d7052-4a7c-4e56-93ec-281affd7004b">
+</p>
+
+
 #### Grid System
 
 O Grid System é um sistema de grade que permite a criação de layouts flexíveis e responsivos. Ele divide a tela em 12
