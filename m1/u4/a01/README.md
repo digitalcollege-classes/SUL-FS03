@@ -36,3 +36,15 @@ conteúdo. O Bootstrap possui um sistema de grid responsivo que pode ser usado e
 A col é o elemento que define o conteúdo de cada coluna. Ela é responsável por definir o tamanho da coluna e o seu
 conteúdo. O Bootstrap possui um sistema de grid responsivo que pode ser usado em dispositivos móveis e desktops. O
 Bootstrap possui 5 tamanhos de colunas: col, col-sm, col-md, col-lg e col-xl.
+
+<p align="center">
+  <img src="https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/a49f0c07-3683-4c86-a197-2e2bfc7df688">
+</p>
+
+
+
+### Referências
+
+[Documentação oficial](https://getbootstrap.com)
+
+[Bootstrap 4 vs Foundation 6 Grid System](https://medium.com/gridbox/bootstrap-4-vs-foundation-6-grid-system-5874e0e87a95)
