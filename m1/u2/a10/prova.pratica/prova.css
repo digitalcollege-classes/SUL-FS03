@@ -133,6 +133,8 @@
 
  .login-form {
     position: relative;
+    justify-content: center;
+    align-content: space-around;
     max-width: 400px;
     margin: 40px;
     background-color: var(--blank-color);
