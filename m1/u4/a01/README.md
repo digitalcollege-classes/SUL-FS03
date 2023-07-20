@@ -12,6 +12,11 @@ Bootstrap é um framework front-end que facilita a criação de sites e aplicaç
 ferramentas de código aberto para desenvolvimento com HTML, CSS e JavaScript. O Bootstrap é um projeto de código aberto
 disponível no [GitHub](https://github.com/twbs/bootstrapm).
 
+<p align="center">
+  <img src="https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/430d7052-4a7c-4e56-93ec-281affd7004b">
+</p>
+
+
 #### Grid System
 
 O Grid System é um sistema de grade que permite a criação de layouts flexíveis e responsivos. Ele divide a tela em 12
@@ -36,3 +41,15 @@ conteúdo. O Bootstrap possui um sistema de grid responsivo que pode ser usado e
 A col é o elemento que define o conteúdo de cada coluna. Ela é responsável por definir o tamanho da coluna e o seu
 conteúdo. O Bootstrap possui um sistema de grid responsivo que pode ser usado em dispositivos móveis e desktops. O
 Bootstrap possui 5 tamanhos de colunas: col, col-sm, col-md, col-lg e col-xl.
+
+<p align="center">
+  <img src="https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/a49f0c07-3683-4c86-a197-2e2bfc7df688">
+</p>
+
+
+
+### Referências
+
+[Documentação oficial](https://getbootstrap.com)
+
+[Bootstrap 4 vs Foundation 6 Grid System](https://medium.com/gridbox/bootstrap-4-vs-foundation-6-grid-system-5874e0e87a95)
