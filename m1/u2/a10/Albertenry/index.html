@@ -27,6 +27,46 @@
     referrerpolicy="no-referrer"
     rel="stylesheet"
   />
+  <style>
+.conteudo__formulario {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  width: 500px;
+  height: 500px;
+}
+ .form-group {
+        margin-bottom: 20px;
+    }
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 80%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    textarea {
+        height: 100px;
+    }
+    button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+</style>
 </head>
 <body>
   <header>
@@ -40,10 +80,32 @@
       </div>
     </nav>
   </header>
+  <hr>
   <main>
     <div class="container">
-
+  
+      <div class="conteudo__formulario">
+        
+      <h1>Formulário de Contato</h1>
+      <form id="contact-form">
+          <div class="form-group">
+              <label for="name">Nome:</label>
+              <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+              <label for="message">Mensagem:</label>
+              <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+      </form>
+    
     </div>
+    
+  </div>
   </main>
   <footer>
     <div class="container">
