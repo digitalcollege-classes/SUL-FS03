@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="ie=edge"
+  >
+  <title>Media Query</title>
+  <style>
+  main {
+      background-color: rgba(86,61,124,.15);
+      border: 1px solid rgba(86,61,124,.2);
+      margin: 10px;
+      padding: 10px;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  @media (max-width: 600px) {
+      .class {
+          color: red;
+      }
+  }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="class">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+    </p>
+  </main>
+
+  <div>
+    <h3>Window Stats</h3>
+    <div>Width: <span class="width">unknown</span></div>
+    <div>Height: <span class="height">unknown</span></div>
+  </div>
+
+  <script>
+  const update = function () {
+    document.querySelector('.width').innerText = document.documentElement.clientWidth
+    document.querySelector('.height').innerText = document.documentElement.clientHeight
+  }
+  window.addEventListener('resize', update, true)
+  update()
+  </script>
+</body>
+</html>
