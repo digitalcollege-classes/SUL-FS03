@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+    --primary-color: #c92071;
+    --secondary-color: #474747;
+    --tertiary-color: #a0a0a0;
+    --quaternary-color: #f0f0f0;
+    --quinary-color: #f8f8f8;
+    --senary-color: #b5b6f2;
+    --septenary-color: #efefff;
+    --inverted-color: #1F1F1F;
+    --blank-color: #fff;
+}
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
+
+/* generic classes */
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-tertiary {
+    color: var(--tertiary-color);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header {
+    background: var(--blank-color);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px 2rem;
+    border-bottom: 1px solid var(--quaternary-color);
+}
+
+.header__container {
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: fit-content;
+}
+
+.header__logo > h1 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.header__form {
+    width: 100%;
+    max-width: 60%;
+    display: flex;
+}
+
+.header__form > label {
+    flex: 1;
+}
+
+.header__form > label >input {
+    width: 100%;
+    height: 60px;
+    background-color: var(--quinary-color);
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 24px;
+    border: 2px solid var(--quaternary-color);
+}
+
+.header__form > label > input:focus {
+    border: 2px solid var(--primary-color);
+    outline: none;
+}
+
+.header__form > button {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__form > button > img {
+    max-height: 30px;
+}
+
+.header__actions {
+    min-width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.header__actions > a {
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+.header__actions > button {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 8px;
+    font-weight: 700;
+    color: var(--blank-color);
+    padding: 20px 28px;
+    text-transform: uppercase;
+}
+  
+ /* tela de login */
+
+ .login-form {
+    position: relative;
+    justify-content: center;
+    align-content: space-around;
+    max-width: 400px;
+    margin: 40px;
+    background-color: var(--blank-color);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    gap: 3rem;
+    top: 30px;
+    
+  }
+  
+  .login-form h1 {
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+  }
+  
+  .login-form p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--tertiary-color);
+  }
+  
+  .login-form .form-image {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .login-form .form-image img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid var(--quaternary-color);
+    border-radius: 3px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+    color: var(--blank-color);
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .login-form .forgot-password {
+    margin-top: 10px;
+    text-align: center;
+    color: var(--tertiary-color);
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .image-container img {
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 300px;
+    height: auto;
+    top: 15%;
+}
+
+.image-container img:first-child {
+    margin-right: 20rem;
+}
+
+
+.icon {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .icon img {
+    position: relative;
+    margin-right: 10px;
+    width: 30px;
+  }
+  
+  
+  
+
+/* main */
+
+main {
+    background: linear-gradient(180deg, var(--senary-color) 0%, var(--septenary-color) 100%);
+    min-height: 350px;
+}
+
+/* footer */
+
+footer {
+    background: var(--inverted-color);
+    color: var(--blank-color);
+    padding: 70px 100px 30px 100px;
+    min-height: 200px;
+}
+
+footer h5 {
+    font-size: 16px;
+    margin: 0 0 28px 0;
+}
+
+footer a,
+footer p {
+    color: var(--blank-color);
+    font-size: 14px;
+    line-height: 26px;
+}
+
+footer small {
+    font-size: 11px;
+}
+
+footer > .container > .top {
+    display: flex;
+    flex: 1;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer > .container > .top > .brand {
+    max-width: 400px;
+    padding: 0 90px 0 0;
+}
+
+footer > .container > .top > .brand > img.logo {
+    width: 240px;
+    margin: 0 0 35px 0;
+}
+
+footer > .container > .top > .brand > p {
+    padding-top: 1.5rem;
+}
+
+footer > .container > .top > .brand ul {
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+    margin: 35px 0 0 0;
+    padding-left: 0.5rem;
+}
+
+footer > .container > .top > .info {
+    padding: 0 40px;
+}
+
+footer > .container > .top > .category {
+    padding: 0 40px;
+}
+
+footer > .container > .top > .info > ul > li > a, footer > .container > .top > .category > ul > li > a {
+    line-height: 38px;
+}
+
+footer > .container > .top > .contact {
+    padding: 0 0 0 90px;
+    max-width: 300px;
+}
+
+footer > .container > .divider > .line {
+    background: var(--quaternary-color);
+    height: 1px;
+    width: 100%;
+    margin: 30px 0;
+}
+
+footer > .container > .copyright {
+    display: flex;
+    justify-content: center;
+}
