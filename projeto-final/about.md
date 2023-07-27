@@ -29,6 +29,9 @@ aplicando conceitos de frontend e backend.
 Nesta etapa vamos organizar a turma para dividir em times. Cada time irá ficar responsável por uma das três páginas que devem ser implementadas.
 Os times podem se organizar como quiserem e não é avaliado o trabalho do time e sim os commits e entregas de cada participante.
 
+![image](https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/57af0a40-37b9-4afa-978e-a2edab9e6a23)
+
+
 #### Iniciativa Red
 
 <a href="https://github.com/digitalcollege-classes/SUL-FS03">
