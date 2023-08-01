@@ -1,9 +1,10 @@
-JavaScript:
-• Variáveis e Tipos de Dados
-• Operadores
-• Estruturas de Controle
-• Funções
-• Objetos e Arrays
-• Manipulação do DOM (vamos começar por aqui)
-• Eventos
-• Debug
+# 1 - Lógica de Programação em JavaScript
+
+| Unidades                                      | Aptidão a desenvolver                                                                                                                                                                                                                                                                                                                                                |
+|-----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [1 - Introdução a Lógica](a01/)               | Mostrar ao aluno a importância de ter lógica dentro de um site/apliacação web. E mostrar que já vinhamos utilizando lógica em alguns momentos, como por exemplo ao passar o mouse por cima de um botão e ativar o hover  Apresentar ao aluno o conceito de Estruturas de Controle, como um código/algoritmo lida com a tomada de decisões através da lógica booleana |
+| [2 - Conceitos de Portugol](a02/)             | Mostrar ao aluno como podemos criar uma interação humano X Máquina através do conceito de INPUT/OUTPUT. O aluno deverá entender o funcionamento de um algoritmo, entendo que dentro de uma sequencia poderemos ter decisões                                                                                                                                          |
+| [3 - Primeiros Passos com JavaScript](a03/)   | O objetivo é mostrar ao aluno que o Javascript pode ser utilizado dentro da estrutura do HTML assim como já foi visto com CSS. A proposta é deixar a turma navegar pelo Javascript mas sem entrar em detalhes sobre a linguagem. Isso será visto na disciplina de Javascript                                                                                         |
+| [4 - Estruturas de Dados](a04/)               |                                                                                                                                                                                                                                                                                                                                                                      |
+| [5 - Estruturas de Decisão / Repetição](a05/) |                                                                                                                                                                                                                                                                                                                                                                      |
+| [6 - Funções](a06/)                           |                                                                                                                                                                                                                                                                                                                                                                      |
