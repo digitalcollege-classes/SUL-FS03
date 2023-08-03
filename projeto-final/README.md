@@ -6,3 +6,6 @@
 
 > Links:
 > [Repositório da loja](https://github.com/digital-college-fs03/store)
+
+As entregas serão feitas no dia 22/08.
+> Cada time deve apresentar o que foi desenvolvido
