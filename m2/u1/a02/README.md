@@ -50,5 +50,14 @@ Diagramas relacionados usados em software de computador incluem:
 - Gráficos DRAKON: [DRAKON](https://pt.wikipedia.org/wiki/DRAKON) é uma linguagem de programação visual algorítmica
   usada para criar fluxogramas.
 
+##### Modelando processos com fluxogramas
+
+Bora entrar no [app.diagrams.net](https://app.diagrams.net) e modelar um fluxograma.
+
+Criar um fluxograma que leve uma pessoa de sua casa até o mercado para comprar pão. Caso o pão não esteja fresquinho é preciso ir até a padaria.
+O fluxo a ser modelado envolver caminhar metros, virar nas direções da rosa dos ventos e tomar decisões. Os principais comandos que podem ser usados são `caminhar(metros)`, `virar(direção)` e as decisões são represetadas por `se(condição)`.   
+
+![image](https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/740c45a2-0733-4dc7-9591-f3278daf4767)
+
 
 
