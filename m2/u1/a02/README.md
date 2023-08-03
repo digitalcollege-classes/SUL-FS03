@@ -60,4 +60,23 @@ O fluxo a ser modelado envolver caminhar metros, virar nas direções da rosa do
 ![image](https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/740c45a2-0733-4dc7-9591-f3278daf4767)
 
 
+##### BPMN
+
+Fica aqui uma menção honrosa a uma notação de diagramas prima do fluxograma chamada BPMN. O BPMN foi criado para modelar processos de negócio.
+Ele entrega uma experiência mais direcionada para tratarmos dos processos de negócios do que o fluxograma e existem ferramentas que são capazes de modelar e executar
+grandes processos de grandes empresas.
+
+![image](https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/104ebfe0-6b7f-4b66-a0d2-4f99f0da22e9)
+
+O [bpmn.io](https://bpmn.io/) é uma ferramenta muito simples e prática para criarmos modelos BPMN.
+
+#### Estruturas de controle
+
+<p align="center">
+  <img
+    src="https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/seo/flowchart/discovery/database-flowchart.svg"
+    alt="flugrama como código"
+  >
+</p>
+
 
