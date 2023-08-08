@@ -180,4 +180,5 @@ desenvolvedores de software garantirem a qualidade e a confiabilidade de seus pr
 O VS Code possui uma ferramenta de debugar integrada. Para utilizá-la, basta clicar no ícone de "bug" na barra lateral
 esquerda ou pressionar `Ctrl + Shift + D`.
 
+![image](https://github.com/digitalcollege-classes/SUL-FS03/assets/803733/1f046764-b1a3-4014-a650-48f70a6c415d)
 
