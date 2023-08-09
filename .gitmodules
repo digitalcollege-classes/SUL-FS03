@@ -1,0 +1,3 @@
+[submodule "projeto-final/store"]
+	path = projeto-final/store
+	url = git@github.com:digital-college-fs03/store.git
