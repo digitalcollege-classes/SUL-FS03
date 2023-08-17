@@ -1,0 +1,503 @@
+body{
+    margin: 0;
+    background-color: rgb(242, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    color:black;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    height:100px;
+    margin: 0 auto;
+    padding: 20px 70px;
+}
+
+.logo a {
+    color: rgba(201, 32, 113, 1);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+#img{
+    position: absolute;
+    padding: 2px;
+}
+
+.login  {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(112, 111, 111);
+    display: flex;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 15px;
+}
+
+.button {
+    background-color:rgba(201, 32, 113, 1);
+    color: #fff;
+    font-size: 15px;
+    width: 114px;
+    height: 40px;
+    position: absolute;
+    margin-left: 1000px;
+    cursor: pointer;
+}
+
+#carrim {
+    position: absolute;
+    margin-left: 1190px;
+    margin-top: 10px;
+    color:rgba(201, 32, 113, 1);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color:rgb(236, 51, 141);
+}
+
+input {
+    margin-left: 20px;
+    width: 500px;
+    height: 50px;
+    border: none;
+    background-color:rgb(242, 243, 243);
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: rgb(187, 187, 187);
+    font-size: 18px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 50px 0;
+    width: 500px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color:rgb(156, 156, 156);
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color:rgba(201, 32, 113, 1);
+}
+
+/*main*/
+
+.container {
+    background-color: #fff;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(43, 39, 39, 0.685);
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 900px;
+    height: 410px;
+}
+
+.form {
+    display: flex;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 40px;
+}
+
+.form p {
+    font-size: 15px;
+}
+
+#cod {
+    display: flex;
+    position: absolute;
+    margin-top: 39px;
+    margin-left: 1px;
+    width: 300px;
+}
+
+input::placeholder {
+    padding: 10px;
+}
+
+.button-3 {
+    position: absolute;
+    align-items: center;
+    width: 90px;
+    margin-top: 39px;
+    margin-left: 310px;
+    color: rgba(201, 32, 113, 1);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-2 p {
+    margin-left: 300px;
+}
+
+#cep {
+    display: flex;
+    position:absolute;
+    width: 300px;
+    margin-left: 300px;
+    margin-top: -9px;
+}
+
+.button-4 {
+    position: absolute;
+    align-items: center;
+    width: 90px;
+    margin-top: -9px;
+    margin-left: 610px;
+    color: rgba(201, 32, 113, 1);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.box-1 {
+    height: 40px;
+    margin: 35px;
+}
+
+.box-2 {
+    border:none;
+    margin: 35px;
+    margin-left: 335px;
+}
+
+.box-3 {
+    margin: 35px;
+}
+
+.box-4 {
+    margin: 35px;
+}
+
+#web {
+    display: flex;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 80px;
+    width: 840px;
+}
+
+#card {
+    display: flex;
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 30px;
+    width: 600px;
+}
+
+#card img {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+#card h1 {
+    background-color: #fff;
+    color: black;
+    margin-left: 20px;
+    height: 70px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#card p {
+    display: flex;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 170px;
+}
+
+#desc {
+    display: flex;
+    position: absolute;
+    color: rgb(221, 218, 218);
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 642px;
+    margin-top: 95px;
+}
+
+#desc- {
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 637px;
+    margin-top: 120px;
+}
+
+#tot {
+    display: flex;
+    position: absolute;
+    color: rgb(221, 218, 218);
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 772px;
+    margin-top: 95px;
+}
+
+#tot- {
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 767px;
+    margin-top: 120px;
+}
+
+.container-2 {
+    background-color: #fff;
+    display: flex;
+    margin-left: 70px;
+}
+
+.container-2 h3 {
+    width: 310px;
+    margin-left: 25px;
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+}
+
+#web-2 {
+    display: flex;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 80px;
+    width: 320px;
+}
+
+#web-3 {
+    display: flex;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 200px;
+    width: 840px;
+}
+
+.list {
+    display: block;
+    position: absolute;
+    margin-top: 100px;
+    padding: 0 auto;
+    list-style: none;
+
+}
+
+.li-1 {
+    height: 60px;
+}
+
+.li-2 {
+    height: 60px;
+}
+
+.li-3 {
+    height: 60px;
+}
+
+.li-4 {
+    font-size: 20px;
+    color: black;
+}
+
+.button-2 {
+    display: block;
+    margin-top: 15px;
+    width: 300px;
+    margin-left: -3px;
+    height: 40px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.button-2:hover {
+    background-color: rgb(212, 60, 4);
+}
+
+h2 {
+    margin-left: 50px;
+    margin-top: 60px;
+    color: rgb(85, 83, 83);
+}
+
+.container-3 {
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.container-3 h3 {
+    background-color: rgb(216, 252, 16);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    margin-left: 25px;
+    border-radius: 30px;
+    
+}
+
+.container-3 img {
+    display: flex;
+    position: absolute;
+    height: 100px;
+    margin-top: 80px;
+    margin-left: 35px;
+}
+
+#bob {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    display: flex;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 250px;
+}
+
+#bob- {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: gray;
+    display: flex;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 275px;
+}
+
+.container-4 {
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    margin-left: 350px;
+    height: 200px;
+    width: 250px;
+}
+
+.container-4 img {
+    display: flex;
+    margin-left: 45px;
+}
+
+#pat {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    display: flex;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 250px;
+}
+
+#pat- {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: gray;
+    display: flex;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 275px;
+}
+
+.container-5 {
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    margin-left: 650px;
+    height: 200px;
+    width: 250px;
+}
+
+.container-5 img {
+    height: 135px;
+    width: 190px;
+    margin-top: 51px;
+    margin-left: 35px;
+}
+
+#lul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    display: flex;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 250px;
+}
+
+#lul- {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: gray;
+    display: flex;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 275px;
+}
+
+.container-6 {
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    margin-left: 950px;
+    height: 200px;
+    width: 250px;
+}
+
+.container-6 img {
+    height: 200px;
+    width: 190px;
+    margin-top: 23px;
+    margin-left: 35px;
+}
+
+#sir {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    display: flex;
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 250px;
+}
+
+#sir- {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: gray;
+    display: flex;
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 275px;
+}

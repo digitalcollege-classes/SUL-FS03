@@ -3,10 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="sgreen/css/style.css">
+    <title>Drip/store</title>
+    <link rel="stylesheet" href="./green/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar">
+          <div class="logo">
+            <img id="img" src="./green/imagens/Vector.jpg" alt="">
+            <a href="#">Digital Store</a>
+            <input  type="text" placeholder="Pesquisar produto">
+            <span class="material-symbols-outlined">search</span>
+          </div>
+          <a class="login" href="#">Cadastre-se</a>
+          <input class="button" type="button" value="Entrar">
+          <span id="carrim" class="material-symbols-outlined">
+            shopping_cart_checkout
+          </span>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Categorias</a></li>
+            <li><a href="#">Meus pedidos</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="container">
+          <div class="box-1">Meu carrinho</div>
+          <div class="box-2">Quantidade</div>
+          <div class="box-3">Unitário</div>
+          <div class="box-4">Total</div>
+          <hr id="web">
+          <div class="form">
+            <p>Cupom de desconto</p>
+            <input type="number" name="código" id="cod" placeholder="Insira seu código">
+            <input class="button-3" type="button" value="OK">
+            <div class="form-2">
+              <p>Calcular frete</p>
+              <input type="number" name="cep" id="cep" placeholder="Insira seu CEP">
+              <input class="button-4" type="button" value="OK">
+            </div>
+          </div>
+          
+  
+          <div class="container-2">
+            <h3>Resumo</h3>
+            <hr id="web-2">
+            <ul class="list">
+              <li class="li-1">Subtotal: <span style="color: black; margin-left: 140px;">R$ 219,00</span></li>
+              <li class="li-2">Frete: <span style="color: black; margin-left: 190px;">R$ 0,00</span></li>
+              <li class="li-3">Desconto: <span style="color: black; margin-left: 140px;">R$ 30,00</span></li>
+              <li class="li-4">Total <span style="color: rgb(253, 49, 127); margin-left: 169px;">R$ 219,00</span></li>
+              <span style="font-size: 13px; margin-left: 135px;">ou 10x de R$ 21,00 sem juros</span>
+              <input class="button-2" type="button" value="Continuar">
+            </ul>
+          </div>
+  
+          <div id="desc">
+            <p style="text-decoration: line-through;">R$ 219,00</p>
+          </div>
+  
+          <div id="desc-">
+            <h3>R$ 200,00</h3>
+          </div>
+  
+          <div id="tot">
+            <p style="text-decoration: line-through;">R$ 219,00</p>
+          </div>
+  
+          <div id="tot-">
+            <h3>R$ 200,00</h3>
+          </div>
+  
+          <article id="card">
+            <header>
+              <img src="./green/imagens/tênisnike.jpg" alt="">
+            </header>
+            <body>
+              <h1>Sneakers Nike Fusion Pink - Feminino</h1>
+              <p>Cor: <span style="color: black; margin-left: 10px;"> Rosa / Azul </p> </span></p>
+              <p><span style="margin-top: 45px;">Tamanho: </span><span style="color: black; margin-top: 45px; margin-left: 10px;"> 38 </span></p>
+              <hr id="web-3">
+            </body>
+          </article>
+        </div>
+  
+        <div>
+          <h2>Produtos relacionados</h2>
+           <a href="#"><span style="color: rgba(201, 32, 113, 1); font-size: 20px; margin-left: 760px; display: flex; position: absolute; margin-top:-50px;">
+            Ver todos</span></p></a><span class="material-symbols-outlined" style="color: rgba(201, 32, 113, 1); font-size: 28px; margin-left: 850px; display: flex; position: absolute; margin-top: -52px; cursor: pointer;">arrow_forward</span> 
+        </div>
+  
+        <div class="container-3">
+          <h3>30% OFF</h3>
+          <img src="./green/imagens/NikeSpongBob.jpg" alt="">
+        </div>
+        <span style="color: gray; font-family: Verdana, Geneva, Tahoma, sans-serif; display: flex; position: absolute; margin-left: 50px; margin-top: 220px; font-size: 15px;">Tênis</span>
+        <p id="bob">Snakers NikeSpongBob - (U.S)</p>
+        <p id="bob-"><span style="text-decoration: line-through; width: 60px;"> $200 </span> <span style="color: black;">$100</span></p>
+  
+        <div class="container-4">
+          <img src="./green/imagens/NikePatrickStar.jpg" alt="">
+        </div>
+        <span style="color: gray; font-family: Verdana, Geneva, Tahoma, sans-serif; display: flex; position: absolute; margin-left: 350px; margin-top: 217px; font-size: 15px;">Tênis</span>
+        <p id="pat">Snakers NikePatrickStar - (U.S)</p>
+        <p id="pat-"><span style="text-decoration: line-through; width: 60px;"> $300 </span> <span style="color: black;">$150</span></p>
+  
+        <div class="container-5">
+          <img src="./green/imagens/NikeSquidward.jpg" alt="">
+        </div>
+        <span style="color: gray; font-family: Verdana, Geneva, Tahoma, sans-serif; display: flex; position: absolute; margin-left: 650px; margin-top: 217px; font-size: 15px;">Tênis</span>
+        <p id="lul">Snakers NikeSquidward - (U.S)</p>
+        <p id="lul-"><span style="text-decoration: line-through; width: 60px;"> $150 </span> <span style="color: black;">$100</span></p>
+  
+        <div class="container-6">
+          <img src="./green/imagens/NikeKyrie.jpg" alt="">
+        </div>
+        <span style="color: gray; font-family: Verdana, Geneva, Tahoma, sans-serif; display: flex; position: absolute; margin-left: 950px; margin-top: 217px; font-size: 15px;">Tênis</span>
+        <p id="sir">Snakers NikeKyrie - (U.S)</p>
+        <p id="sir-"><span style="text-decoration: line-through; width: 60px;"> $200 </span> <span style="color: black;">$150</span></p>
+      </main>
 </body>
 </html>
