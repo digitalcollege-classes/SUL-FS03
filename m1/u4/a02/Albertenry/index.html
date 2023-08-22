@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dri Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        body {
+            background:  var(--secondary-gradient, linear-gradient(180deg, #B5B6F2 0%, #EFEFFF 100%));
+            height: 100vh;
+            width: 100vw;
+        }
+        .meu-formulario {
+            padding: 30px;
+            max-width: 523px;
+            min-width: 280px;
+            background-color: aliceblue;
+        }
+        .meu-formulario_container {
+            font-size: 1rem;
+            margin-bottom: 20px;
+
+        }
+        .meu-formulario .form-group label {
+            font-size: 0.8rem;
+        }
+        .meu-formulario__esqueci-minha-senha {
+            color: #474747;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px; /* 157.143% */
+            letter-spacing: 0.25px;
+            text-decoration-line: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container pt-03">
+    <form class="meu-formulario rounded">
+        <div class="meu-formulario_container">
+            <h3>Acesse sua conta</h3>
+            Novo cliente? Registre_se <a href="">aqui</a>
+        <div class="form-group">
+            <label for="">Login <span>*</span></label>
+            <input type="email" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="">Senha <span>*</span></label>
+            <input type="password" class="form-control">
+        </div>
+        <a href="" class="meu-formulario__esqueci-minha-senha">Esqueci minha senha</a>
+        <div>
+            <button class="btn btn-danger">
+                Acessar Conta
+            </button>
+        </div>
+        <div>
+            Ou faça login com google facebook
+        </div>
+     </div>
+    </form>
+    </div>
+</body>
+</html>
