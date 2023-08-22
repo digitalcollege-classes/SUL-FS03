@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMATION</title>
+    <style>
+        body {
+            margin: 50px;
+        }
+        main {
+            background-color: red;
+            padding: 25px;
+        }
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: whitesmoke;
+        }
+        .rotate {
+            animation: rotate 2s linear infinite;
+        }
+        @keyframes rotate {
+            from {
+                transform: rotate(0);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="square rotate">
+            A&E
+        </div>
+    </main>
+</body>
