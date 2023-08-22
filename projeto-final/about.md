@@ -66,7 +66,7 @@ Escopo: entregar a [página de checkout completa](https://www.figma.com/file/YRy
     <img src="https://badgen.net/badge/projeto%20final/iniciativa%20blue/blue?scale=1.6&icon=github&cache=3600" alt="blue team">
 </a>
 
-A iniciativa green é o time que vai atuar na página de login da Drip Store. Em geral, atuar em na parte de acesso envolve muito aprendizado e 
+A iniciativa blue é o time que vai atuar na página de login da Drip Store. Em geral, atuar em na parte de acesso envolve muito aprendizado e 
 é pautada na segurança da informação. É preciso viver a cultura da segurança de software e isso torna as pessoas que atuam nesta área profissionais
 procurados e valorizados.
 
