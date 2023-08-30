@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script>
+        function calcular()
+        {
+            const numero1 = document.getElementById('numero1').value
+            const numero2 = document.getElementById('numero2').value
+            const operacao = document.querySelector('input[name="operacao"]:checked').value
+            let resultado
+            switch (operacao) {
+                case '+':
+                    resultado = parseFloat(numero1) + parseFloat(numero2)
+                    break;
+                case '-':
+                    resultado = parseFloat(numero1) - parseFloat(numero2)
+                    break;
+                case '*':
+                    resultado = parseFloat(numero1) * parseFloat(numero2)
+                    break;
+                case '/':
+                    resultado = parseFloat(numero1) / parseFloat(numero2)
+                    break;
+            }
+            console.log('o resultado do cálculo é', resultado)
+            document.getElementById('resultado').value = resultado
+        }
+    </script>
+</head>
+<body>
+    Número 1
+    <div>
+        <input type="number" id="numero1">
+    </div>
+    <hr>
+    Número 2
+    <div>
+        <input type="number" id="numero2">
+    </div>
+    <hr>
+    Operação
+    <div>
+        <input name="operacao" type="radio" value="+">+
+        <input name="operacao" type="radio" value="-">-
+        <input name="operacao" type="radio" value="*">*
+        <input name="operacao" type="radio" value="/">/
+    </div>
+    <hr>
+    <button onclick="calcular()">Calcular</button>
+    <hr>
+    Resultado
+    <div>
+        <input disabled type="text" id="resultado">
+    </div>
+</body>
+</html>
