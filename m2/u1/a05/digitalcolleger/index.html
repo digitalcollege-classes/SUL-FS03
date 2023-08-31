@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somar dois números</title>
+    <script>
+        function subtrair()
+        {
+            const numero1 = document.getElementById('numero1').value
+            const numero2 = document.getElementById('numero2').value
+            const resultado = parseFloat(numero1) - parseFloat(numero2)
+            console.log('o resultado da subtração é', resultado)
+            document.getElementById('resultado').value = resultado
+        }
+    </script>
+</head>
+<body>
+    Número 1
+    <div>
+        <input type="number" id="numero1">
+    </div>
+    <hr>
+    Número 2
+    <div>
+        <input type="number" id="numero2">
+    </div>
+    <hr>
+    <button onclick="subtrair()">Subtrair</button>
+    <hr>
+    Resultado
+    <div>
+        <input disabled type="text" id="resultado">
+    </div>
+</body>
+</html>
