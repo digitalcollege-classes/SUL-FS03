@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Exemplo Fetch JSON</title>
+</head>
+<body>
+  <h1>Dados do Endpoint JSON</h1>
+  <button onclick="carregarDados()">Carregar Dados</button>
+  <div id="dados"></div>
+
+  <script>
+  function carregarDados () {
+    fetch('http://localhost:3000/pessoas')
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Erro ao carregar os dados: ' + response.status)
+        }
+        return response.json()
+      })
+      .then((dados) => {
+        exibirDados(dados)
+      })
+      .catch((error) => {
+        console.error(error)
+      })
+  }
+
+  function exibirDados (dados) {
+    const dadosDiv = document.querySelector('#dados')
+    dadosDiv.innerHTML = ''
+
+    for (const personagem of dados) {
+      for (let chave in personagem) {
+        if (personagem.hasOwnProperty(chave)) {
+          const paragrafo = document.createElement('p')
+          paragrafo.textContent = chave + ': ' + personagem[chave]
+          dadosDiv.appendChild(paragrafo)
+        }
+      }
+    }
+  }
+  </script>
+</body>
+</html>
