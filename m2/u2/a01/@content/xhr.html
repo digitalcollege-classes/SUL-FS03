@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplo XHR JSON</title>
+</head>
+<body>
+  <h1>Dados do Endpoint JSON</h1>
+  <button onclick="carregarDados()">Carregar Dados</button>
+  <div id="dados"></div>ß
+  <script>
+  function carregarDados () {
+    const xhr = new XMLHttpRequest()
+    xhr.open('GET', 'http://localhost:3000', true)
+
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        const dados = JSON.parse(xhr.responseText)
+        exibirDados(dados)
+      }
+    }
+
+    xhr.send()
+  }
+
+  function exibirDados (dados) {
+    const dadosDiv = document.querySelector('#dados')
+    dadosDiv.innerHTML = ''
+
+    for (const personagem of dados) {
+      for (let chave in dados) {
+        if (dados.hasOwnProperty(chave)) {
+          const paragrafo = document.createElement('p')
+          paragrafo.textContent = chave + ': ' + dados[chave]
+          dadosDiv.appendChild(paragrafo)
+        }
+      }
+    }
+  }
+  </script>
+</body>
+</html>
