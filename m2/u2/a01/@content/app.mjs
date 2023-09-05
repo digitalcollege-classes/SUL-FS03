@@ -1,7 +1,7 @@
 import http from 'node:http'
 import fs from 'node:fs'
 
-const host = '0.0.0.0'
+const host = 'localhost'
 const port = 3000
 
 const requestListener = function (request, response) {

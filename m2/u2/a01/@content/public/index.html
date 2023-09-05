@@ -10,7 +10,7 @@
 
   <script>
   function carregarDados () {
-    fetch('http://localhost:3000')
+    fetch('http://localhost:3000/pessoas')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Erro ao carregar os dados: ' + response.status)
