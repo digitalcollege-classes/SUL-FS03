@@ -11,19 +11,6 @@ assíncronas através de páginas HTML buscando conteúdo do servidor para hidra
 
 ## Tecnologias
 
-### XHR (XMLHttpRequest)
-
-O XHR é um objeto que permite que o JavaScript realize requisições HTTP. Ele é um objeto nativo do browser e foi
-desenvolvido pela Microsoft para o Internet Explorer 5.0. Hoje em dia, todos os browsers modernos implementam o XHR.
-
-Exemplo de requisição com XHR:
-
-```javascript
-const xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://api.github.com/users/wilcorrea');
-xhr.send(null);
-```
-
 ### Promises
 
 Promises são objetos que representam a eventual conclusão ou falha de uma operação assíncrona. Elas são muito úteis
@@ -39,6 +26,19 @@ const minhaPromise = () => new Promise((resolve, reject) => {
 minhaPromise()
   .then(response => console.log(response))
   .catch(error => console.log(error));
+```
+
+### XHR (XMLHttpRequest)
+
+O XHR é um objeto que permite que o JavaScript realize requisições HTTP. Ele é um objeto nativo do browser e foi
+desenvolvido pela Microsoft para o Internet Explorer 5.0. Hoje em dia, todos os browsers modernos implementam o XHR.
+
+Exemplo de requisição com XHR:
+
+```javascript
+const xhr = new XMLHttpRequest();
+xhr.open('GET', 'https://api.github.com/users/wilcorrea');
+xhr.send(null);
 ```
 
 ### Fetch API
