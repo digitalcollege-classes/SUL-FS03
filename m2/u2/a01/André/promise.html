@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise</title>
+</head>
+<body>
+    <script>
+        function fazAlgumaCoisaAi() {
+            const resolver = function (sucesso, erro) {
+                const timeout = document.querySelector('[name="timeout"]').value
+                const handler = function () {
+                    sucesso('poxaaaaa!')
+                }
+                window.setTimeout(handler, timeout)
+            }
+            
+            const promise = new Promise(resolver)
+            promise
+                .then(function (resposta) {
+                    console.log('a resposta foi: ', resposta)
+                })   
+        }
+    </script>
+    <input type="number" value="1000" name="timeout">
+    <button onclick="fazAlgumaCoisaAi()">Faz alguma coisa ai</button>
+</body>
+</html>
