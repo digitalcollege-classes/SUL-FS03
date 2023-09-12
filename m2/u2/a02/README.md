@@ -115,7 +115,47 @@ http.createServer(function (request, response) {
     return
   }
 
-  res.writeHead(404, { 'Content-Type': 'text/plain' })
+  res.writeHead(404, { 'Content-Type': 'text/html' })
   res.end('Rota não encontrada')
 })
+```
+
+Vamos focar apenas nesta parte aqui agora
+  
+```javascript
+switch (request.url) {
+  case '/salvar':
+    response.writeHead(200, { 'Content-Type': 'text/html' })
+    response.end(`
+        <h1>Dados salvos com sucesso!</h1>
+    `)
+    break
+}
+```
+
+Para lidar com esta forma precismos ler todo o conteúdo do corpo da requisição e depois transformar em um objeto
+JavaScript.
+  
+```javascript
+import { URLSearchParams } from 'url'
+
+let body = '';
+
+request.on('data', (chunk) => {
+  body += chunk.toString();
+});
+
+request.on('end', () => {
+  const formData = new URLSearchParams(body);
+  const nome = formData.get('nome');
+  const email = formData.get('email');
+  const errors = validateForm(nome, email);
+
+  if (errors.length === 0) {
+    res.writeHead(200, { 'Content-Type': 'text/html' });
+    res.end('Formulário válido!');
+  } else {
+    res.writeHead(400, { 'Content-Type': 'text/html' });
+    res.end('Formulário inválido. Erros: ' + errors.join(', '));
+  }
 ```
