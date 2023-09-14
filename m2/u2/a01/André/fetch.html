@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Altura</th>
+                <th scope="col">Data de Nascimento</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!--<tr>
+                <th scope="row">1</th>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+            -->
+            </tbody>
+          </table>
+    </div>
+
+    <script>
+        function buscarDados() {
+            fetch('https://swapi.dev/api/people')
+                .then(function (resposta) {
+                    return resposta.json()
+                })
+                .then(function (data) {
+                    let linhas = ''
+                    let contador = 0
+                    for (const personagem of data.results) {
+                        contador = contador + 1
+                        linhas = linhas + `<tr>
+                                <th scope="row">${contador}</th>
+                                <td>${personagem.name}</td>
+                                <td>${personagem.height}</td>
+                                <td>${personagem.birth_year}</td>
+                            </tr>`
+                    }
+                    console.log(linhas)
+                })
+        }
+    </script>
+    <button onclick="buscarDados()">Buscar dados</button>
+</body>
+</html>
