@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+header, nav, main, article, section, footer, aside {
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+header {
+    background-color: #ff788f;
+    grid-column: 1 / span 3;
+}
+
+nav {
+    background-color: #45e0a8;
+    grid-column: 1 / span 3;
+}
+
+aside {
+    background-color: #facfd6;
+    grid-column: auto / span 1;
+}
+
+main {
+    background-color: #c9edff;
+    grid-column: auto / span 2;
+}
+
+section {
+    background-color: #00a8ff;
+}
+
+article {
+    background-color: #6edbff;
+}
+
+footer {
+    background-color: #b880ff;
+    grid-column: 1 / span 3;
+}

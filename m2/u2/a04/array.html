@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id=q-app></div>
+    <script>
+        const nome = 'William'
+        console.log(nome)
+        const person = {
+            nome: 'William'
+        }
+        const people = [
+            'William',
+            'Daniel',
+            'Tatiana',
+            'Ana Carolina',
+            'Nico'
+        ]
+        const items = people.map(function (element) {
+            return '<tr><td>' + element + '</td></tr>'
+        })
+        const div = document.querySelector('div')
+        div.innerHTML = '<table>' + items.join('') + '</table>'
+    </script>
+</body>
+</html>
