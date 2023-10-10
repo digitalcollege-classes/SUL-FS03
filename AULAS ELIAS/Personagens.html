@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleFetch.css">
+</head>
+<body>
+    <button>Carregar personagem</button>
+    <button id="pagina"></button>
+        <div id="personagem"></div>
+
+    <script>
+        let page = 1
+        const personagemDiv = document.querySelector('#personagem')
+        const botao = document.querySelector('button')
+        const pagina = document.querySelector('#pagina')
+
+        function exibePersonagem (personagem) {
+            const wrapper = document.createElement('div')
+
+            const img = document.createElement('img')
+            img.src = personagem.image
+            
+            const name = document.createElement('h1')
+            name.innerText = personagem.name
+            
+            personagemDiv.appendChild(name) 
+            personagemDiv.appendChild(img) 
+            pagina.innerText = page
+        }
+
+        function carregaPersonagem () {
+            fetch('https://rickandmortyapi.com/api/character?page=' + page)
+                .then((response) => response.json())
+                .then((data) => {
+                    personagemDiv.innerHTML = ''
+                    data.results.forEach(personagem => {
+                        exibePersonagem(personagem)
+                    });
+                    
+                })
+
+            page++
+        }
+
+        botao.addEventListener('click', carregaPersonagem)
+        pagina.addEventListener('click', () => {
+            pagina.innerHTML = '1'
+        })
+
+    </script>
+</body>
+</html>
